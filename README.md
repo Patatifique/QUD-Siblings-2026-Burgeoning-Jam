@@ -1,0 +1,1 @@
+This repository contains the source for the Lost Garden of Geth mod by Balthichou and Patatifique.
