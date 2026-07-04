@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<zonetemplates>
+  
+    <zonetemplate Name="Weird Jungle" RegionSize="200">
+        <global>      
+        <population Table="WeirdJungleZoneGlobals-Surface" Hint="Any"></population>
+        <cellfilterout Filter="!Reachable">
+            <population Table="WeirdJungleZoneGlobals-Reachable"></population>
+        </cellfilterout>
+        </global>
+
+        <eachregion>
+        <group Criteria="Connection">
+            <exit/>
+        </group>
+        <population Table="WeirdJunglePerSector"></population>
+        </eachregion>
+    </zonetemplate>
+
+</zonetemplates>
