@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+
+
+  <!-- Rubber Orchard -->
+  <population Name="RubberOrchardZoneGlobals-Surface">
+    <table Name="StandardSurfaceGlobals" />
+    <table Name="RubberOrchardZoneGlobals-Vegetation" />
+    <table Name="RubberOrchardZoneGlobals" />
+    <table Chance="95" Number="1" Name="RubberOrchardZoneGlobals-Creatures" />
+  </population>
+
+  <population Name="RubberOrchardZoneGlobals">
+    <object Blueprint="Grassy" />
+
+    <!-- Do better than throwing junk on the ground when we do sector encounters -->
+    <group Chance="3" Name="Junk" Style="pickone">
+      <table Name="Junk 4" />
+      <table Name="Junk 5" />
+      <table Name="Junk 6" />
+    </group>
+  </population>
+
+  <population Name="RubberOrchardZoneGlobals-Reachable">
+    <table Chance="10" Name="SunflowerPatches with Deep Slumberling" />
+    <table Chance="10" Name="FlowerPatches with FeralLah" />
+    <table Chance="10" Name="FlowerPatches" />
+
+    <table Chance="95" Number="2-3" Name="RubberOrchardZoneGlobals-Creatures" />
+
+    <group Chance="2" Name="DromadTrader" Style="pickone">
+      <object Weight="10" Blueprint="DromadTrader5" />
+      <object Weight="80" Blueprint="DromadTrader6" />
+      <object Weight="10" Blueprint="DromadTrader7" />
+    </group>
+  </population>
+
+  <population Name="RubberOrchardZoneGlobals-Creatures">
+    <object Chance="8" Number="1-3" Blueprint="Ogre Ape" />
+    <object Chance="10" Number="2-4" Blueprint="Purple Jell" />
+    <object Chance="8" Number="1-3" Blueprint="Greater Voider" />
+    <object Chance="10" Number="1-2" Blueprint="Bloated Pearlfrog" />
+    <object Chance="10" Number="6-10" Blueprint="Lagroot" />
+    <object Chance="10" Number="1" Blueprint="Miner Mk III" />
+    <object Chance="10" Number="1" Blueprint="Random Turret Tinker" />
+    <object Chance="5" Number="1" Blueprint="Deep Slumberling" />
+    <object Chance="1" Number="6-10" Blueprint="Yonderbrush" />
+    <object Chance="5" Number="1" Blueprint="Goatfolk Qlippoth" />
+  </population>
+
+  <population Name="RubberOrchardZoneGlobals-Vegetation">
+    <group Name="Contents" Style="pickone">
+      <group Name="Normal Trees" Weight="99">
+        <object Chance="95" Number="360-480" Blueprint="Nimbus Beam" />
+        <object Chance="95" Number="120-200" Blueprint="Nachash Tree" />
+        <object Chance="95" Number="240-320" Blueprint="Ziv Bough" />
+        <object Chance="95" Number="120-200" Blueprint="Shimscale Mangrove Tree" />
+        <object Chance="40" Number="25-50" Blueprint="Star Palm" />
+        <object Chance="15" Number="6-12" Blueprint="Starapple Tree" />
+      </group>
+      <group Name="Urberry" Weight="1">
+        <object Chance="100" Blueprint="Urberry Bush" Number="50-75" Hint="Adjacent:80" />
+        <object Chance="95" Number="90-120" Blueprint="Nimbus Beam" />
+        <object Chance="95" Number="30-50" Blueprint="Nachash Tree" />
+        <object Chance="95" Number="60-80" Blueprint="Ziv Bough" />
+        <object Chance="40" Number="10-20" Blueprint="Star Palm" />
+        <object Chance="95" Number="30-50" Blueprint="Shimscale Mangrove Tree" />
+        <object Chance="15" Number="4-8" Blueprint="Starapple Tree" />
+      </group>
+    </group>
+  </population>
+
+
+  <population Name="RubberOrchardPerSector">
+    <group Name="SpecialEncounters" Style="pickone">
+    </group>
+    <group Name="Creatures" Style="pickone">
+      <table Weight="9000" Name="Nothing" />
+      <object Weight="300" Number="3-6" Blueprint="Life Sap" />
+      <object Weight="300" Number="1-4" Blueprint="Aloe Fugues" />
+      <object Weight="100" Number="1-2" Blueprint="Vantabud" />
+      <group Name="CorrosiveBreathers" Weight="300">
+        <object Number="1" Blueprint="ElderCorrosiveBreather" />
+        <object Number="3-6" Blueprint="CorrosiveBreather" />
+      </group>
+      <group Weight="25" Name="Older Svardym" Style="pickeach">
+        <object Number="1-3" Blueprint="Svardym Jut" />
+        <object Number="1" Blueprint="Svardym Eld" />
+      </group>
+      <object Weight="15" Number="1" Blueprint="Svardym Scrounge" />
+    </group>
+  </population>
+
+  <population Name="SunflowerPatches with Deep Slumberling">
+    <group Name="Types" Style="pickone">
+      <group Name="Small" Style="pickeach" Weight="95">
+        <object Chance="100" Blueprint="Sunflower" Number="12-20" Hint="Adjacent:90" />
+        <object Chance="75" Blueprint="Sunflower" Number="12-20" Hint="Adjacent:90" />
+        <object Chance="75" Blueprint="Sunflower" Number="12-20" Hint="Adjacent:90" />
+        <object Chance="25" Blueprint="Sunflower" Number="12-20" Hint="Adjacent:90" />
+        <object Blueprint="Deep Slumberling" Number="0-1" Hint="StackWithStartsWith:Sunflower" />
+      </group>
+      <group Name="Large" Style="pickeach" Weight="5">
+        <object Chance="100" Blueprint="Sunflower" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="100" Blueprint="Sunflower" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="100" Blueprint="Sunflower" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="100" Blueprint="Sunflower" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="75" Blueprint="Sunflower" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="50" Blueprint="Sunflower" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="50" Blueprint="Sunflower" Number="24-40" Hint="Adjacent:90" />
+        <object Blueprint="Deep Slumberling" Number="2-5" Hint="StackWithStartsWith:Sunflower" />
+      </group>
+    </group>
+  </population>
+  <population Name="FlowerPatches with FeralLah">
+    <group Name="Types" Style="pickone">
+      <group Name="Small" Style="pickeach" Weight="95">
+        <object Chance="100" Blueprint="Flowers" Number="12-20" Hint="Adjacent:90" />
+        <object Chance="75" Blueprint="Flowers" Number="12-20" Hint="Adjacent:90" />
+        <object Chance="75" Blueprint="Flowers" Number="12-20" Hint="Adjacent:90" />
+        <object Chance="25" Blueprint="Flowers" Number="12-20" Hint="Adjacent:90" />
+        <object Blueprint="Feral Lah" Chance="50" Number="1-3" Hint="StackWithStartsWith:Flowers" />
+      </group>
+      <group Name="Large" Style="pickeach" Weight="5">
+        <object Chance="100" Blueprint="Flowers" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="100" Blueprint="Flowers" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="100" Blueprint="Flowers" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="100" Blueprint="Flowers" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="75" Blueprint="Flowers" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="50" Blueprint="Flowers" Number="24-40" Hint="Adjacent:90" />
+        <object Chance="50" Blueprint="Flowers" Number="24-40" Hint="Adjacent:90" />
+        <object Blueprint="Feral Lah" Chance="100" Number="4-8" Hint="StackWithStartsWith:Flowers" />
+      </group>
+    </group>
+  </population>
+
+</populations>

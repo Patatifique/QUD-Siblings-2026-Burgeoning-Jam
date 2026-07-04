@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map ID="QudWorldMap" Width="80" Height="25">
+  <cell X="12" Y="22">
+    <object Name="Sibs_TerrainRubberOrchard" />
+  </cell>
+</Map>
