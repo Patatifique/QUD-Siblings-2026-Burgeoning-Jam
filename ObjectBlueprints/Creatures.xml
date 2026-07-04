@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+
+
+
+	<!--Creatures-->
+	
+	<object Name="Sibs__Garden_Waterbot" Inherits="BaseRobot">
+		<part Name="Render" DisplayName="sprinklebot" Tile="Creatures/burgeoning/waterbot.png" RenderString="4" ColorString="&amp;y" DetailColor="c" />
+		<part Name="Description" Short="Sloshing against a traxenonoglass shell, irrigative prospect follows furrowing patterns led by alternating stilts. Where =pronouns.subjective= =verb:roam:afterpronoun=, a damp track welcomes burgeoning life." />
+		<stat Name="Level" Value="19" />
+		<stat Name="AV" Value="6" />
+		<stat Name="Hitpoints" Value="30" />
+		<tag Name="SeveredHeadBlueprint" Value="RobotHead4" />	
+		<part Name="Body" Anatomy="QuadrupedalRobot" />
+		<tag Name="Species" Value="quadrupedal robot" />
+		<inventoryobject Blueprint="@DynamicObjectsTable:EnergyCells:Tier{ownertier}" Number="1-2" Chance="4" />
+		<part Name="Spawner" TrailBlueprint="Sibs_Garden_SmallSaltyWaterPuddle" />
+		<tag Name="Role" Value="Summoner" />
+	</object>
+
+	<!--NPC-->
+	
+	<object Name="Sibs_Garden_Sven" Inherits="NPC">
+		<part Name="Render" ColorString="&amp;w" DetailColor="g" Tile="Creatures/burgeoning/oldsven.png" RenderString="@" DisplayName="leaf-sheathed hermit" />	
+		<part Name="Description" Short="A burnoose of foliage conceal shoulders burdened by a lifetime of mistakes. =Pronouns.possessive= beryl gaze holds the countenance of dirt treaded underfoot again and again, and =pronouns.possessive= fingers flex idle calluses, grasping at companions long gone. Gaze upon =pronouns.objective= who lived through death, and now dies through life." />
+		<part Name="ConversationScript" ConversationID="Sibs_Garden_Sven" />
+		<part Name="Brain" Wanders="false" Hostile="false" Factions="Hermits-100,Strangers-50" />
+		<stat Name="Level" Value="24" />
+		<stat Name="Strength" sValue="23" />
+		<stat Name="Agility" sValue="28" />
+		<stat Name="Toughness" sValue="20" />
+		<stat Name="Intelligence" sValue="224" />
+		<stat Name="Willpower" sValue="20" />
+		<stat Name="Ego" sValue="19" />
+		<stat Name="Hitpoints" sValue="130" />	
+		<mutation Name="Beguiling" Level="5" />
+		<mutation Name="HeightenedAgility" Level="5" />
+		<mutation Name="Metamorphosis" Level="6" />
+		<mutation Name="HeightenedHearing" Level="7" />
+		<inventoryobject Blueprint="Umber Frock" Number="1" />
+		<inventoryobject Blueprint="Sibs_Garden_BigStick" Number="1" />
+		<inventoryobject Blueprint="Sandals" Number="1" />
+		<part Name="GivesRep" />
+		<tag Name="staticFaction1" Value="Prey,hate, shameful reasons best left forgotten" />
+		<tag Name="staticFaction2" Value="Kyakukya,friend,once defending their village" />
+		<tag Name="NoHateFactions" Value="Robots" />
+		<skill Name="Multiweapon_Fighting" />
+		<skill Name="LongBlades" />
+		<skill Name="LongBladesProficiency" />
+		<skill Name="LongBladesLunge" />
+		<skill Name="LongBladesSwipe" />
+		<skill Name="LongBladesDuelingStance" />
+		<skill Name="LongBladesImprovedAggressiveStance" />
+		<skill Name="LongBladesImprovedDefensiveStance" />
+		<skill Name="LongBladesImprovedDuelistStance" />
+		<skill Name="LongBladesDeathblow" />		
+		<skill Name="Pistol_SteadyHands" />
+		<skill Name="Rifle_SteadyHands" />
+		<skill Name="Acrobatics" />
+		<skill Name="Acrobatics_Jump" />
+		<skill Name="CookingAndGathering_Butchery" />
+		<skill Name="Tactics" />
+		<skill Name="Tactics_Juke" />
+		<skill Name="Physic_StaunchWounds" />
+		<skill Name="Physic_Nostrums" />
+		<skill Name="Survival" />
+		<skill Name="Survival_PlainsSurvival" />
+		<skill Name="Survival_JungleSurvival" />
+		<skill Name="Survival_RuinsSurvival" />
+		<tag Name="Role" Value="NPC" />
+		<tag Name="NoSleep" />
+		<tag Name="Gender" Value="male" />
+		<xtagGrammar Proper="true" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+		<part Name="SetStateOnSeen" State="Sibs_Garden_SvenSeen" />
+	</object>
+	
+	
+	
+	
+</objects>

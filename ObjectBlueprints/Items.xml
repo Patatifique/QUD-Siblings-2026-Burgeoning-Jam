@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+
+	<object Name="Sibs_Garden_BigStick" Inherits="BaseCudgel">
+		<part Name="Render" DisplayName="{{Y|steel}} makeshift crutch" Tile="Items/burgeoning/bigstick.png" ColorString="&amp;y" DetailColor="r" />
+		<part Name="MeleeWeapon" PenBonus="1" MaxStrengthBonus="3" BaseDamage="2d4" Skill="Cudgel" Stat="Strength" />
+		<part Name="Commerce" Value="20" />
+		<part Name="Description" Short="A length of metal polished by use bears the weight of those in need." />
+		<part Name="Metal" />
+		<tag Name="Tier" Value="2" />
+		<tag Name="EquipSound" Value="Sounds/Equip/sfx_equip_weapon_bludgeon_metal_light" />
+		<part Name="Physics" UsesTwoSlots="true" Weight="9" />    
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
+	
+	
+	
+</objects>
