@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <zonetemplates>
   
-    <zonetemplate Name="Weird Jungle" RegionSize="200">
+    <zonetemplate Name="Rubber Orchard" RegionSize="200">
         <global>      
-        <population Table="WeirdJungleZoneGlobals-Surface" Hint="Any"></population>
+        <population Table="RubberOrchardZoneGlobals-Surface" Hint="Any"></population>
         <cellfilterout Filter="!Reachable">
-            <population Table="WeirdJungleZoneGlobals-Reachable"></population>
+            <population Table="RubberOrchardZoneGlobals-Reachable"></population>
         </cellfilterout>
         </global>
 
@@ -13,7 +13,7 @@
         <group Criteria="Connection">
             <exit/>
         </group>
-        <population Table="WeirdJunglePerSector"></population>
+        <population Table="RubberOrchardPerSector"></population>
         </eachregion>
     </zonetemplate>
 
