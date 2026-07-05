@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+	<object Name="Sibs_Garden_CucumberCrop" Inherits="Plant">
+		<part Name="Render" DisplayName="cucumber vine" RenderString="245" ColorString="&amp;g" DetailColor="G" Occluding="false" Tile="Terrain/burgeoning/cucumberplant1.png" />
+		<part Name="Harvestable" OnSuccess="Ripe Cucumber" StartRipeChance="1:3" RipeColor="&amp;g" RipeTileColor="&amp;g" RipeDetailColor="G" UnripeColor="&amp;g" UnripeTileColor="&amp;g" UnripeDetailColor="k" />
+		<part Name="Description" Short="Under dorsiventrally flattened shade, vines fashion an emerald network upon which lay gifts of captured moisture." />
+		<builder Name="RandomTile" Tiles="Terrain/burgeoning/cucumberplant1.png,Terrain/burgeoning/cucumberplant2.png,Terrain/burgeoning/cucumberplant3.png" />
+		<tag Name="Fiber" Value="rope" />
+		<stag Name="FiberMaterial" Value="vine" />
+		<tag Name="DynamicObjectsTable:FarmablePlants" />
+	</object>
+	
+	<object Name="Sibs_Garden_RubberTree" Inherits="Tree">
+		<part Name="Render" DisplayName="rubber tree" RenderString="244" Tile="Terrain/burgeoning/rubbertree1.png" ColorString="&amp;g" DetailColor="w" Occluding="true" />
+		<part Name="Description" Short="Flowing elastomere sap has shot the tree toward Hindsun and Beetle Moon. Nestled within soft bark and dehiscent fruit lays the promise of a future sibling yet to bloom." />
+		<part Name="Harvestable" OnSuccess="Rubber Tree Seed" StartRipeChance="1:50" RipeColor="&amp;g" RipeTileColor="&amp;g" RipeDetailColor="W" UnripeColor="&amp;g" UnripeTileColor="&amp;g" UnripeDetailColor="w" />
+		<tag Name="HangingSupport" />
+		<builder Name="RandomTile" Tiles="Terrain/burgeoning/rubbertree1.png,Terrain/burgeoning/rubbertree2.png,Terrain/burgeoning/rubbertree3.png" />
+		<tag Name="DynamicObjectsTable:FarmablePlants" />
+		<tag Name="DynamicObjectsTable:FarmablePlants:Weight" Value="0.2" />
+	</object>
+  
+</objects>
