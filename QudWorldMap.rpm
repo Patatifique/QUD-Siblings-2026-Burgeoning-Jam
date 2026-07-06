@@ -2,52 +2,52 @@
 <Map ID="QudWorldMap" Width="80" Height="25">
 		
  <cell X="32" Y="1">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="33" Y="1">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="34" Y="1">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="35" Y="1">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
 
    <cell X="32" Y="2">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="33" Y="2">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="34" Y="2">
-    <object Name="Sibs_TerrainLostGarden"></object>
+    <object Name="Sibs_Garden_TerrainLostGarden"></object>
   </cell>
   <cell X="35" Y="2">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="36" Y="2">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
 
    <cell X="33" Y="3">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="34" Y="3">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="35" Y="3">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="36" Y="3">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   <cell X="37" Y="3">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
 
    <cell X="35" Y="4">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_Garden_TerrainRubberOrchard"></object>
   </cell>
   
 </Map>

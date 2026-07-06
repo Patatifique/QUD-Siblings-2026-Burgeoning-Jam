@@ -12,7 +12,7 @@
     <tag Name="RegionTier" Value="3" />
     <tag Name="NoAutowalk" />
   </object>
-  <object Name="Sibs_Garden_TerrainLostGarden" Inherits="Sibs_TerrainRubberOrchard">
+  <object Name="Sibs_Garden_TerrainLostGarden" Inherits="Sibs_Garden_TerrainRubberOrchard">
     <tag Name="NoBiomes" Value="1" />
     <tag Name="NoRiver" Value="1" />
   </object>
