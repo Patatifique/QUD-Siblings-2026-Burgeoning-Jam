@@ -24,7 +24,7 @@
 	<!--NPCs-->
 	
 	<object Name="Sibs_Garden_Sven" Inherits="NPC">
-		<part Name="Render" ColorString="&amp;w" DetailColor="g" Tile="Creatures/burgeoning/oldsven.png" RenderString="@" DisplayName="leaf-sheathed hermit" />	
+		<part Name="Render" ColorString="&amp;w" DetailColor="g" Tile="Creatures/burgeoning/oldsven.png" RenderString="@" DisplayName="leaf-swaddled hermit" />	
 		<part Name="Description" Short="A burnoose of foliage conceal shoulders burdened by a lifetime of mistakes. =pronouns.Possessive= beryl gaze holds the countenance of dirt treaded underfoot again and again, and =pronouns.possessive= fingers flex idle calluses, grasping at companions long gone. Gaze upon =pronouns.objective= who lived through death, and now dies through life." />
 		<part Name="ConversationScript" ConversationID="Sibs_Garden_Sven" />
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Hermits-100,Strangers-50" />
@@ -109,6 +109,31 @@
 		<part Name="Interesting" />
 	</object>
   
-	
+	<object Name="Sibs_Garden_Cartographer" Inherits="NPC">
+		<part Name="Render" DisplayName="Mudokah" ColorString="&amp;w" DetailColor="y" Tile="Creatures/burgeoning/cartographer.png" />
+		<part Name="Titles" Ordinary="wandering cartographer" />	
+		<part Name="Description" Short="=pronouns.Possessive= ink-stained fingers run along pressed watervine pulp, etching lines of geographical rememberance. Eyes squinted under a furrowed brow, bracing against their own shortcomings despite concave-lensed assistance. Travel mud cakes boots and knees alike, and =pronouns.subjective= =verb:shift:afterpronoun= in and out of phase as one approaches, until intent is made clear." />
+		<stat Name="Level" Value="19" />
+		<stat Name="Hitpoints" Value="80" />
+		<part Name="Interesting" />
+		<part Name="ConversationScript" ConversationID="Sibs_Garden_Cartographer" />
+		<inventoryobject Blueprint="Umber Frock" />
+		<inventoryobject Blueprint="Leather Boots" />
+		<inventoryobject Blueprint="Wide-brimmed Hat" />
+		<inventoryobject Blueprint="Spectacles" />
+		<inventoryobject Blueprint="MerchantAdvertisement" Number="1-2" />
+		<inventoryobject Blueprint="Compass Bracelet" />
+		<mutation Name="Myopia" />
+		<mutation Name="Phasing" Level="4" />
+		<mutation Name="ElectromagneticPulse" Level="4" />
+		<skill Name="Survival" />
+		<skill Name="Survival_JungleSurvival" />
+	    <skill Name="Survival_RiversLakesSurvival" />
+		<skill Name="Survival_RuinsSurvival" />
+		<part Name="Brain" Wanders="false" Factions="Kyakukya-100" />
+		<tag Name="Gender" Value="female" />
+		<xtagGrammar Proper="true" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
 	
 </objects>

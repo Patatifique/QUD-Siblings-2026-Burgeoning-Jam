@@ -13,6 +13,33 @@
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	
+	<object Name="Sibs_Garden_RubberBoots" Inherits="BaseBoot">
+		<part Name="Armor" AV="1" DV="1" Elec="40" WornOn="Feet" />
+		<part Name="Render" DisplayName="{{w|rubber boots}}" RenderString="]" ColorString="&amp;w" DetailColor="W" Tile="Items/burgeoning/rubberboots.png" />
+		<part Name="Commerce" Value="150" />
+		<part Name="Description" Short="A vulcanized dam of sapletting byproduct holds the steady flow of electrons." />
+		<part Name="Physics" Weight="3" Conductivity="0" Organic="true" />
+		<part Name="Springy" Factor="0.9" />
+		<tag Name="EquipSound" Value="sfx_equip_armor_synthetic" />
+		<tag Name="Tier" Value="4" />
+	</object>
 	
+	<object Name="Sibs_Garden_Bonsai" Inherits="Armor">
+		<part Name="Armor" AV="0" DV="2" WornOn="Back" />
+		<part Name="Physics" Weight="5" Organic="true" />	
+		<part Name="Render" DisplayName="back-mounted {{leafy|bonsai}}" ColorString="&amp;g" DetailColor="w" RenderString="]" Tile="Items/burgeoning/bonsaipack.png" />		
+		<part Name="Commerce" Value="95" />
+		<part Name="LiquidVolume" MaxVolume="8" StartVolume="1-8" InitialLiquid="sap-1000" />
+		<part Name="LeakWhenBroken" />
+		<part Name="LiquidProducer" Liquid="sap" Rate="2000" WorksOnWearer="true" WorksOnSelf="false" />
+		<part Name="Description" Short="Gnarled age is given the apparence of youth, and a tap drips with the constant flow of lifesap." />
+		<part Name="AddsRep" Faction="Trees" Value="200" />
+		<tag Name="EquipSound" Value="sfx_equip_armor_planty" />
+		<tag Name="Tier" Value="4" />
+		<tag Name="LivePlant" />
+		<part Name="Yurtmat" />
+	</object>
+	
+
 	
 </objects>
