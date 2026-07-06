@@ -21,4 +21,9 @@
 		<tag Name="DynamicObjectsTable:FarmablePlants:Weight" Value="0.2" />
 	</object>
   
+  	<object Name="Sibs_Garden_DarkGreenPit" Inherits="Pit">
+		<part Name="Render" ColorString="&amp;g^k" TileColor="&amp;g^k" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
+	
 </objects>
