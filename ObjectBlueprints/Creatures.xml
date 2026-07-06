@@ -25,6 +25,7 @@
 	
 	<object Name="Sibs_Garden_Sven" Inherits="NPC">
 		<part Name="Render" ColorString="&amp;w" DetailColor="g" Tile="Creatures/lostgarden/oldsven.png" RenderString="@" DisplayName="leaf-swaddled hermit" />	
+		<part Name="DisplayNameColor" Color="W" />
 		<part Name="Description" Short="A burnoose of foliage conceal shoulders burdened by a lifetime of mistakes. =pronouns.Possessive= beryl gaze holds the countenance of dirt treaded underfoot again and again, and =pronouns.possessive= fingers flex idle calluses, grasping at companions long gone. Gaze upon =pronouns.objective= who lived through death, and now dies through life." />
 		<part Name="ConversationScript" ConversationID="Sibs_Garden_Sven" />
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Hermits-100,Strangers-50" />
@@ -134,6 +135,7 @@
 		<skill Name="Survival_JungleSurvival" />
 	    <skill Name="Survival_RiversLakesSurvival" />
 		<skill Name="Survival_RuinsSurvival" />
+		<tag Name="NoSleep" />
 		<part Name="Brain" Wanders="false" Factions="Kyakukya-100" />
 		<tag Name="Gender" Value="female" />
 		<xtagGrammar Proper="true" />
