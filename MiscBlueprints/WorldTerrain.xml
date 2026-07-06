@@ -6,7 +6,7 @@
     <part Name="TerrainTravel" Segments="3000" TravelClass="Survival_JungleSurvival" />
     <part Name="Description" Short="A really cool place" />
     <tag Name="DefaultWall" Value="Mudroot" />
-    <tag Name="LairOwnerTable" Value="LairOwners_DeepJungle" />
+    <tag Name="LairOwnerTable" Value="LairOwners_Jungle" />
     <tag Name="Terrain" Value="Sibs_RubberOrchard" />
     <tag Name="RuinWalls" Value="HighTierRegionRuinWalls" />
     <tag Name="RegionTier" Value="3" />
