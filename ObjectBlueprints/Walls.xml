@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+	<object Name="Sibs_Garden_MossWall" Inherits="BaseWallMetal">
+		<part Name="Render" DisplayName="mossy chrome" RenderString="177" ColorString="&amp;y^g" TileColor="&amp;y" DetailColor="g" Occluding="true" />
+		<part Name="Physics" Weight="25000" FlameTemperature="25000" VaporTemperature="58000" Takeable="false" Solid="true" />
+		<stat Name="AV" Value="50" />
+		<stat Name="Hitpoints" Value="300" />
+		<part Name="Description" Short="Creeping life reclaims fields of lustrous sheen." />
+		<stat Name="AcidResistance" Value="100" />
+		<stat Name="HeatResistance" Value="100" />
+		<stat Name="ColdResistance" Value="100" />
+		<stat Name="ElectricResistance" Value="100" />
+		<tag Name="PaintedWall" Value="wall_metal" />
+		<tag Name="ImmutableWhenUnexplored" Value="1" />
+		<tag Name="Mods" Value="TechWallMods" />
+		<tag Name="Tier" Value="4" />
+		<xtagGrammar massNoun="true" />
+		<part Name="Graffitied" ChanceOneIn="300" />
+  </object>
+
+</objects>

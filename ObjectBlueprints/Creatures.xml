@@ -8,8 +8,8 @@
 	<object Name="Sibs_Garden_Waterbot" Inherits="BaseRobot">
 		<part Name="Render" DisplayName="sprinklebot" Tile="Creatures/burgeoning/waterbot.png" RenderString="4" ColorString="&amp;y" DetailColor="c" />
 		<part Name="Description" Short="Sloshing against a traxenonoglass shell, irrigative prospect follows furrowing patterns led by alternating stilts. Where =pronouns.subjective= =verb:roam:afterpronoun=, a damp track welcomes burgeoning life." />
-		<part Name="Brain" WandersRandomly="true" Wanders="true" Hostile="false" />
-		<part Name="AITryKeepSteadyDistance" />
+		<part Name="Brain" WandersRandomly="true" Wanders="true" Hostile="false" Calm="true" />
+		<part Name="AIWanderingJuggernaut" />
 		<stat Name="Level" Value="19" />
 		<stat Name="AV" Value="6" />
 		<stat Name="Hitpoints" Value="30" />

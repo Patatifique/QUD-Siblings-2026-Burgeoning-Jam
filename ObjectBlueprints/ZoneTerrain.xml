@@ -3,7 +3,7 @@
 
 	<object Name="Sibs_Garden_CucumberCrop" Inherits="Plant">
 		<part Name="Render" DisplayName="cucumber vine" RenderString="245" ColorString="&amp;g" DetailColor="G" Occluding="false" Tile="Terrain/burgeoning/cucumberplant1.png" />
-		<part Name="Harvestable" OnSuccess="Ripe Cucumber" StartRipeChance="1:3" RipeColor="&amp;g" RipeTileColor="&amp;g" RipeDetailColor="G" UnripeColor="&amp;g" UnripeTileColor="&amp;g" UnripeDetailColor="k" />
+		<part Name="Harvestable" OnSuccess="Ripe Cucumber" StartRipeChance="1:10" RipeColor="&amp;g" RipeTileColor="&amp;g" RipeDetailColor="G" UnripeColor="&amp;g" UnripeTileColor="&amp;g" UnripeDetailColor="k" />
 		<part Name="Description" Short="Under dorsiventrally flattened shade, vines fashion an emerald network upon which lay gifts of captured moisture." />
 		<builder Name="RandomTile" Tiles="Terrain/burgeoning/cucumberplant1.png,Terrain/burgeoning/cucumberplant2.png,Terrain/burgeoning/cucumberplant3.png" />
 		<tag Name="Fiber" Value="rope" />
