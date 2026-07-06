@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <worlds>
+
   <world Name="JoppaWorld" Load="Merge">
-    <cell Name="Sibs_RubberOrchard" Inherits="DefaultJoppaCell" ApplyTo="Sibs_TerrainRubberOrchard">
+    <cell Name="Sibs_Garden_RubberOrchard" Inherits="DefaultJoppaCell" ApplyTo="Sibs_TerrainRubberOrchard">
       <zone Level="5-9" x="0-2" y="0-2" Name="sky above the rubber orchard" IndefiniteArticle="the" AmbientBed="Sounds/Ambiences/amb_bed_deepJungle">
         <builder Class="Sky"></builder>
       </zone>
@@ -19,12 +20,36 @@
         <music Track="Music/gardengeth/undergrowth.mp3" />
       </zone>
     </cell>
-    <cell Name="Sibs_LostGarden" Inherits="Sibs_RubberOrchard" ApplyTo="Sibs_TerrainLostGarden" Mutable="false">
+	
+    <cell Name="Sibs_Garden_LostGarden" Inherits="Sibs_Garden_RubberOrchard" ApplyTo="Sibs_Garden_TerrainLostGarden" Mutable="false">
+	
       <!-- Lost Garden Surface-->
-      <zone Level="10" x="1" y="1" Name="The Lost Garden" ProperName="true" IncludeStratumInZoneDisplay="false" DisableForcedConnections="Yes" HasWeather="true" WindSpeed="0-60" WindDirections="W,SW,S,SE" WindDuration="50-3000">
-        <map FileName="GardenSurface.rpm"></map>
-        <music Track="Music/gardengeth/overgrowth.mp3" />
-      </zone>
+		<zone Level="10" x="1" y="1" Name="lost garden" ProperName="true" IncludeStratumInZoneDisplay="false" DisableForcedConnections="Yes" HasWeather="true" WindSpeed="0-60" WindDirections="W,SW,S,SE" WindDuration="50-3000">
+			<map FileName="Sibs_GardenSurface.rpm"></map>
+			<music Track="Music/gardengeth/overgrowth.mp3" />
+		</zone>
+	  
+	  	<zone Level="11" x="1" y="1" Name="undergarden" DisableForcedConnections="Yes">
+			<map FileName="Sibs_Garden1.rpm" />
+			<music Track="Music/gardengeth/undergrowth.mp3" />
+		</zone>
+
+	  	<zone Level="12" x="1" y="1" Name="undergarden" DisableForcedConnections="Yes">
+			<map FileName="Sibs_Garden2.rpm" />
+			<music Track="Music/gardengeth/undergrowth.mp3" />
+		</zone>
+
+	  	<zone Level="13" x="1" y="1" Name="undergarden" DisableForcedConnections="Yes">
+			<map FileName="Sibs_Garden3.rpm" />
+			<music Track="Music/gardengeth/undergrowth.mp3" />
+		</zone>
+		
     </cell>
+	
+
+	
+	
+	
+	
   </world>
 </worlds>

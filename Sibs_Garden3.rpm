@@ -3121,7 +3121,9 @@
   <cell X="41" Y="13">
     <object Name="Fulcrete"></object>
   </cell>
-  <cell X="42" Y="13"></cell>
+  <cell X="42" Y="13">
+    <object Name="MediumBoulder"></object>
+  </cell>
   <cell X="43" Y="13"></cell>
   <cell X="44" Y="13"></cell>
   <cell X="45" Y="13"></cell>
@@ -3350,11 +3352,17 @@
     <object Name="Fulcrete"></object>
   </cell>
   <cell X="41" Y="14">
-    <object Name="SmallBoulder"></object>
+    <object Name="Fulcrete"></object>
   </cell>
-  <cell X="42" Y="14"></cell>
-  <cell X="43" Y="14"></cell>
-  <cell X="44" Y="14"></cell>
+  <cell X="42" Y="14">
+    <object Name="CanvasWall"></object>
+  </cell>
+  <cell X="43" Y="14">
+    <object Name="CanvasWall"></object>
+  </cell>
+  <cell X="44" Y="14">
+    <object Name="CanvasWall"></object>
+  </cell>
   <cell X="45" Y="14"></cell>
   <cell X="46" Y="14"></cell>
   <cell X="47" Y="14"></cell>
@@ -3581,13 +3589,15 @@
     <object Name="Fulcrete"></object>
   </cell>
   <cell X="42" Y="15">
+    <object Name="HalfFullWaterskin"></object>
+  </cell>
+  <cell X="43" Y="15"></cell>
+  <cell X="44" Y="15">
     <object Name="Floor Cushion"></object>
   </cell>
-  <cell X="43" Y="15">
+  <cell X="45" Y="15">
     <object Name="Sibs_Garden_Troll"></object>
   </cell>
-  <cell X="44" Y="15"></cell>
-  <cell X="45" Y="15"></cell>
   <cell X="46" Y="15"></cell>
   <cell X="47" Y="15"></cell>
   <cell X="48" Y="15"></cell>
@@ -3807,9 +3817,13 @@
   <cell X="41" Y="16">
     <object Name="Fulcrete"></object>
   </cell>
-  <cell X="42" Y="16"></cell>
+  <cell X="42" Y="16">
+    <object Name="Bedroll"></object>
+  </cell>
   <cell X="43" Y="16"></cell>
-  <cell X="44" Y="16"></cell>
+  <cell X="44" Y="16">
+    <object Name="Hookah"></object>
+  </cell>
   <cell X="45" Y="16"></cell>
   <cell X="46" Y="16"></cell>
   <cell X="47" Y="16"></cell>
@@ -4016,14 +4030,28 @@
   <cell X="40" Y="17">
     <object Name="Fulcrete"></object>
   </cell>
-  <cell X="41" Y="17"></cell>
-  <cell X="42" Y="17"></cell>
-  <cell X="43" Y="17"></cell>
-  <cell X="44" Y="17"></cell>
-  <cell X="45" Y="17"></cell>
+  <cell X="41" Y="17">
+    <object Name="Fulcrete"></object>
+  </cell>
+  <cell X="42" Y="17">
+    <object Name="CanvasWall"></object>
+  </cell>
+  <cell X="43" Y="17">
+    <object Name="CanvasWall"></object>
+  </cell>
+  <cell X="44" Y="17">
+    <object Name="CanvasWall"></object>
+  </cell>
+  <cell X="45" Y="17">
+    <object Name="CanvasWall"></object>
+  </cell>
   <cell X="46" Y="17"></cell>
-  <cell X="47" Y="17"></cell>
-  <cell X="48" Y="17"></cell>
+  <cell X="47" Y="17">
+    <object Name="MediumBoulder"></object>
+  </cell>
+  <cell X="48" Y="17">
+    <object Name="LargeBoulder"></object>
+  </cell>
   <cell X="49" Y="17">
     <object Name="Fulcrete"></object>
   </cell>
@@ -4242,9 +4270,11 @@
   <cell X="42" Y="18">
     <object Name="Fulcrete"></object>
   </cell>
-  <cell X="43" Y="18"></cell>
+  <cell X="43" Y="18">
+    <object Name="Fulcrete"></object>
+  </cell>
   <cell X="44" Y="18">
-    <object Name="MediumBoulder"></object>
+    <object Name="Fulcrete"></object>
   </cell>
   <cell X="45" Y="18">
     <object Name="Fulcrete"></object>
@@ -4256,7 +4286,7 @@
     <object Name="Fulcrete"></object>
   </cell>
   <cell X="48" Y="18">
-    <object Name="LargeBoulder"></object>
+    <object Name="Rubble"></object>
   </cell>
   <cell X="49" Y="18">
     <object Name="Fulcrete"></object>

@@ -3,7 +3,7 @@
 
 
 <!-- Rubber Orchard -->
-  <population Name="RubberOrchardZoneGlobals">
+  <population Name="Sibs_Garden_RubberOrchardZoneGlobals">
     <table Name="StandardSurfaceGlobals" />
     <object Blueprint="Grassy" />
 
@@ -53,17 +53,17 @@
     </group>
   </population>
 
-  <population Name="RubberOrchardPerSector">
+  <population Name="Sibs_Garden_RubberOrchardPerSector">
     <group Name="SpecialEncounters" Style="pickone">
     </group>
     <group Name="Creatures" Style="pickone">
       <table Weight="9500" Name="Nothing" />
-      <table Weight="250" Name="WaterbotParty" />  
+      <table Weight="250" Name="Sibs_Garden_WaterbotParty" />  
     </group>
   </population>
 
 
-  <population Name="WaterbotParty">
+  <population Name="Sibs_Garden_WaterbotParty">
     <object Chance="100" Number="4-8" Blueprint="Sibs_Garden_Waterbot" />
   </population>
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <zonetemplates>
   
-    <zonetemplate Name="RubberOrchard" RegionSize="200">
+    <zonetemplate Name="Sibs_Garden_RubberOrchard" RegionSize="200">
         <global>      
-        <population Table="RubberOrchardZoneGlobals" Hint="Any"></population>
+        <population Table="Sibs_Garden_RubberOrchardZoneGlobals" Hint="Any"></population>
         </global>
 
         <eachregion>
         <group Criteria="Connection">
             <exit/>
         </group>
-        <population Table="RubberOrchardPerSector"></population>
+        <population Table="Sibs_Garden_RubberOrchardPerSector"></population>
         </eachregion>
     </zonetemplate>
 
