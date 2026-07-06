@@ -6,7 +6,7 @@
 	<!--Creatures-->
 	
 	<object Name="Sibs_Garden_Waterbot" Inherits="BaseRobot">
-		<part Name="Render" DisplayName="sprinklebot" Tile="Creatures/gardengeth/waterbot.png" RenderString="4" ColorString="&amp;y" DetailColor="c" />
+		<part Name="Render" DisplayName="sprinklebot" Tile="Creatures/lostgarden/waterbot.png" RenderString="4" ColorString="&amp;y" DetailColor="c" />
 		<part Name="Description" Short="Sloshing against a traxenonoglass shell, irrigative prospect follows furrowing patterns led by alternating stilts. Where =pronouns.subjective= =verb:roam:afterpronoun=, a damp track welcomes burgeoning life." />
 		<part Name="Brain" WandersRandomly="true" Wanders="true" Hostile="false" Calm="true" />
 		<part Name="AIWanderingJuggernaut" />
@@ -24,7 +24,7 @@
 	<!--NPCs-->
 	
 	<object Name="Sibs_Garden_Sven" Inherits="NPC">
-		<part Name="Render" ColorString="&amp;w" DetailColor="g" Tile="Creatures/gardengeth/oldsven.png" RenderString="@" DisplayName="leaf-swaddled hermit" />	
+		<part Name="Render" ColorString="&amp;w" DetailColor="g" Tile="Creatures/lostgarden/oldsven.png" RenderString="@" DisplayName="leaf-swaddled hermit" />	
 		<part Name="Description" Short="A burnoose of foliage conceal shoulders burdened by a lifetime of mistakes. =pronouns.Possessive= beryl gaze holds the countenance of dirt treaded underfoot again and again, and =pronouns.possessive= fingers flex idle calluses, grasping at companions long gone. Gaze upon =pronouns.objective= who lived through death, and now dies through life." />
 		<part Name="ConversationScript" ConversationID="Sibs_Garden_Sven" />
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Hermits-100,Strangers-50" />
@@ -80,7 +80,7 @@
 	</object>
 	
 	<object Name="Sibs_Garden_Troll" Inherits="Troll King">
-		<part Name="Render" DisplayName="Freyr-Gjohl" RenderString="T" ColorString="&amp;M" Tile="Creatures/gardengeth/chilltroll.png" DetailColor="g" />
+		<part Name="Render" DisplayName="Freyr-Gjohl" RenderString="T" ColorString="&amp;M" Tile="Creatures/lostgarden/chilltroll.png" DetailColor="g" />
    		<part Name="Epithets" Primary=", Who Retreated Below Soil" />	
 		<removepart Name="TrollKing" />
 		<part Name="Description" Short="A dirt-soiled silhouette steps forth, stretching limbs draped in excavated spoils. A metronome of fronds ticks above =pronouns.possessive= brow, rewriting allegiance and advertising commerce." />		
@@ -110,7 +110,7 @@
 	</object>
   
 	<object Name="Sibs_Garden_Cartographer" Inherits="NPC">
-		<part Name="Render" DisplayName="Mudokah" ColorString="&amp;w" DetailColor="y" Tile="Creatures/gardengeth/cartographer.png" />
+		<part Name="Render" DisplayName="Mudokah" ColorString="&amp;w" DetailColor="y" Tile="Creatures/lostgarden/cartographer.png" />
 		<part Name="Titles" Ordinary="wandering cartographer" />	
 		<part Name="Description" Short="=pronouns.Possessive= ink-stained fingers run along pressed watervine pulp, etching lines of geographical rememberance. Eyes squinted under a furrowed brow, bracing against their own shortcomings despite concave-lensed assistance. Travel mud cakes boots and knees alike, and =pronouns.subjective= =verb:shift:afterpronoun= in and out of phase as one approaches, until intent is made clear." />
 		<stat Name="Level" Value="19" />

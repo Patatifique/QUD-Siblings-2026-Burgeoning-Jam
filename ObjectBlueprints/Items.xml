@@ -2,7 +2,7 @@
 <objects>
 
 	<object Name="Sibs_Garden_BigStick" Inherits="BaseCudgel">
-		<part Name="Render" DisplayName="{{Y|steel}} makeshift crutch" Tile="Items/gardengeth/bigstick.png" ColorString="&amp;y" DetailColor="r" />
+		<part Name="Render" DisplayName="{{Y|steel}} makeshift crutch" Tile="Items/lostgarden/bigstick.png" ColorString="&amp;y" DetailColor="r" />
 		<part Name="MeleeWeapon" PenBonus="1" MaxStrengthBonus="3" BaseDamage="2d4" Skill="Cudgel" Stat="Strength" />
 		<part Name="Commerce" Value="20" />
 		<part Name="Description" Short="A length of metal polished by use bears the weight of those in need." />
@@ -15,7 +15,7 @@
 	
 	<object Name="Sibs_Garden_RubberBoots" Inherits="BaseBoot">
 		<part Name="Armor" AV="1" DV="1" Elec="40" WornOn="Feet" />
-		<part Name="Render" DisplayName="{{w|rubber boots}}" RenderString="]" ColorString="&amp;w" DetailColor="W" Tile="Items/gardengeth/rubberboots.png" />
+		<part Name="Render" DisplayName="{{w|rubber boots}}" RenderString="]" ColorString="&amp;w" DetailColor="W" Tile="Items/lostgarden/rubberboots.png" />
 		<part Name="Commerce" Value="150" />
 		<part Name="Description" Short="A vulcanized dam of sapletting byproduct holds the steady flow of electrons." />
 		<part Name="Physics" Weight="3" Conductivity="0" Organic="true" />
@@ -27,7 +27,7 @@
 	<object Name="Sibs_Garden_Bonsai" Inherits="Armor">
 		<part Name="Armor" AV="0" DV="2" WornOn="Back" />
 		<part Name="Physics" Weight="5" Organic="true" />	
-		<part Name="Render" DisplayName="back-mounted {{leafy|bonsai}}" ColorString="&amp;g" DetailColor="w" RenderString="]" Tile="Items/gardengeth/bonsaipack.png" />		
+		<part Name="Render" DisplayName="back-mounted {{leafy|bonsai}}" ColorString="&amp;g" DetailColor="w" RenderString="]" Tile="Items/lostgarden/bonsaipack.png" />		
 		<part Name="Commerce" Value="95" />
 		<part Name="LiquidVolume" MaxVolume="8" StartVolume="1-8" InitialLiquid="sap-1000" />
 		<part Name="LeakWhenBroken" />

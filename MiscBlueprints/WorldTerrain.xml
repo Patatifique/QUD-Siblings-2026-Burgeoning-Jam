@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
   <object Name="Sibs_Garden_TerrainRubberOrchard" Inherits="Terrain">
-    <part Name="Render" DisplayName="rubber orchard" RenderString="005" ColorString="&amp;G^w" Tile="Terrain/gardengeth/rubberorchard1.png" HFlip="false" />
-    <part Name="RandomWorldTile" Tiles="Terrain/gardengeth/rubberorchard1.png,Terrain/gardengeth/rubberorchard2.png,Terrain/gardengeth/rubberorchard3.png,Terrain/gardengeth/rubberorchard4.png"  />
+    <part Name="Render" DisplayName="rubber orchard" RenderString="005" ColorString="&amp;G^w" Tile="Terrain/lostgarden/rubberorchard1.png" HFlip="false" />
+    <part Name="RandomWorldTile" Tiles="Terrain/lostgarden/rubberorchard1.png,Terrain/lostgarden/rubberorchard2.png,Terrain/lostgarden/rubberorchard3.png,Terrain/lostgarden/rubberorchard4.png"  />
     <part Name="TerrainTravel" Segments="3000" LostChance="1500" TravelClass="Survival_JungleSurvival" />
     <part Name="Description" Short="A really cool place" />
     <tag Name="DefaultWall" Value="Mudroot" />
