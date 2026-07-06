@@ -576,6 +576,7 @@
   </cell>
   <cell X="31" Y="2">
     <object Name="ElevatorShaft"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="32" Y="2">
     <object Name="Rubble"></object>

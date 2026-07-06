@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+  <object Name="Sibs_Garden_Switch" Inherits="ElevatorSwitch">
+    <part Name="Render" RenderString=":" ColorString="&amp;G^y" />
+    <part Name="ElevatorSwitch" TopLevel="10" FloorLevel="13" />
+    <removepart Name="Interesting" />
+  </object>
+	
+</objects>

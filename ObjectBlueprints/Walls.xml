@@ -19,4 +19,51 @@
 		<part Name="Graffitied" ChanceOneIn="300" />
   </object>
 
+ <!-- garden computer -->
+ 
+	<object Name="Sibs_Garden_MainframeWall" Inherits="BaseWallMainframe">
+		<part Name="Render" ColorString="&amp;y^y" TileColor="&amp;y" DetailColor="y" />
+		<tag Name="ExcludeFromDynamicEncounters" />		
+	</object>
+
+	<object Name="Sibs_Garden_MainframeTape" Inherits="Sibs_Garden_MainframeWall">
+		<part Name="Render" DisplayName="vacuum column tape drive" />
+		<part Name="ConversationScript" ConversationID="Sibs_Garden_Computer" />
+		<part Name="Description" Short="Magnetic tape is spooled around a wheel and fed to a drive head that scribes and scries, stamping data out of the third dimension then quickening it back in." />
+		<part Name="ElectricalPowerTransmission" ChargeRate="10000" IsConsumer="true" />
+		<part Name="ChargeSink" ChargeUse="10" NameForStatus="StorageSystem" />
+		<tag Name="PaintedWall" Value="mainframe_tape_drive_1" />
+		<part Name="AnimatedMaterialMainframeTapeDrive" />    
+	</object>
+
+	<object Name="Sibs_Garden_Mainframestatus" Inherits="Sibs_Garden_MainframeWall">
+		<part Name="Render" DisplayName="mainframe status panel" />
+		<part Name="ConversationScript" ConversationID="Sibs_Garden_Computer" />
+		<part Name="Description" Short="Across a field of brass and chrome diodes blink in gyres." />
+		<part Name="ElectricalPowerTransmission" ChargeRate="10000" IsConsumer="true" />
+		<part Name="ChargeSink" ChargeUse="10" NameForStatus="Display" />
+		<part Name="AnimatedMaterialGeneric" AnimationLength="160" LowFrameOffset="1" HighFrameOffset="1" ColorStringAnimationFrames="0=&amp;y^K,120=&amp;y^G" TileColorAnimationFrames="disable" DetailColorAnimationFrames="0=K,120=G" RequiresOperationalActivePart="ChargeSink" />
+		<tag Name="PaintedWall" Value="mainframe_status_panel" />
+	</object>
+
+	<object Name="Sibs_Garden_MainframeMonitor1" Inherits="Sibs_Garden_MainframeWall">
+		<part Name="Render" DisplayName="mainframe monitor" />
+		<part Name="ConversationScript" ConversationID="Sibs_Garden_Computer" />
+		<part Name="Description" Short="Scanlines paint the lune in cathode amber." />
+		<part Name="ElectricalPowerTransmission" ChargeRate="10000" IsConsumer="true" />
+		<part Name="ChargeSink" ChargeUse="10" NameForStatus="Display" />
+		<part Name="AnimatedMaterialGeneric" AnimationLength="200" LowFrameOffset="1" HighFrameOffset="1" ColorStringAnimationFrames="0=&amp;y^K,100=&amp;y^W" TileColorAnimationFrames="disable" DetailColorAnimationFrames="0=K,100=W" RequiresOperationalActivePart="ChargeSink" />
+		<tag Name="PaintedWall" Value="mainframe_monitor_1" />
+	</object>
+  
+	<object Name="Sibs_Garden_MainframeMonitor2" Inherits="Sibs_Garden_MainframeWall">
+		<part Name="Render" DisplayName="mainframe control panel" />
+		<part Name="ConversationScript" ConversationID="Sibs_Garden_Computer" />
+		<part Name="Description" Short="Springfoam keys push back against fingers in the course of flirtatious coupling between machine and folk." />
+		<part Name="ElectricalPowerTransmission" ChargeRate="10000" IsConsumer="true" />
+		<part Name="ChargeSink" ChargeUse="10" NameForStatus="Display" />
+		<part Name="AnimatedMaterialGeneric" AnimationLength="80" LowFrameOffset="1" HighFrameOffset="1" ColorStringAnimationFrames="0=&amp;y^K,65=&amp;y^R" TileColorAnimationFrames="disable" DetailColorAnimationFrames="0=K,65=R" RequiresOperationalActivePart="ChargeSink" />
+		<tag Name="PaintedWall" Value="mainframe_monitor_2" />
+	</object>
+	
 </objects>

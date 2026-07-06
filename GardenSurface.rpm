@@ -291,8 +291,8 @@
     <object Name="ElevatorShaft"></object>
   </cell>
   <cell X="32" Y="2">
-    <object Name="Sibs_Garden_MossWall"></object>
     <object Name="Floor"></object>
+    <object Name="Sibs_Garden_Switch"></object>
   </cell>
   <cell X="33" Y="2">
     <object Name="Floor"></object>
@@ -322,8 +322,8 @@
     <object Name="Floor"></object>
   </cell>
   <cell X="40" Y="2">
-    <object Name="Sibs_Garden_MossWall"></object>
     <object Name="Floor"></object>
+    <object Name="Rubble"></object>
   </cell>
   <cell X="41" Y="2">
     <object Name="Rubble"></object>
@@ -446,7 +446,6 @@
   </cell>
   <cell X="32" Y="3">
     <object Name="Floor"></object>
-    <object Name="Techlight2"></object>
   </cell>
   <cell X="33" Y="3">
     <object Name="Floor"></object>
@@ -742,6 +741,7 @@
   </cell>
   <cell X="32" Y="5">
     <object Name="Floor"></object>
+    <object Name="Techlight2"></object>
   </cell>
   <cell X="33" Y="5">
     <object Name="Floor"></object>
@@ -772,6 +772,7 @@
   </cell>
   <cell X="40" Y="5">
     <object Name="Floor"></object>
+    <object Name="Techlight2"></object>
   </cell>
   <cell X="41" Y="5">
     <object Name="Rubble"></object>
