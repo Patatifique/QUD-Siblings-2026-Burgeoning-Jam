@@ -9,7 +9,7 @@
     <tag Name="LairOwnerTable" Value="LairOwners_DeepJungle" />
     <tag Name="Terrain" Value="Sibs_RubberOrchard" />
     <tag Name="RuinWalls" Value="HighTierRegionRuinWalls" />
-    <tag Name="RegionTier" Value="6" />
+    <tag Name="RegionTier" Value="3" />
   </object>
   <object Name="Sibs_TerrainLostGarden" Inherits="Sibs_TerrainRubberOrchard">
     <tag Name="NoBiomes" Value="1" />
