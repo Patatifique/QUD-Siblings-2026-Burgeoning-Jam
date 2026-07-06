@@ -430,7 +430,9 @@
   <cell X="25" Y="3"></cell>
   <cell X="26" Y="3"></cell>
   <cell X="27" Y="3"></cell>
-  <cell X="28" Y="3"></cell>
+  <cell X="28" Y="3">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="29" Y="3">
     <object Name="Sibs_Garden_MossWall"></object>
     <object Name="Floor"></object>
@@ -871,7 +873,9 @@
   <cell X="25" Y="6"></cell>
   <cell X="26" Y="6"></cell>
   <cell X="27" Y="6"></cell>
-  <cell X="28" Y="6"></cell>
+  <cell X="28" Y="6">
+    <object Name="Solar Condenser"></object>
+  </cell>
   <cell X="29" Y="6">
     <object Name="Sibs_Garden_MossWall"></object>
   </cell>
@@ -921,7 +925,9 @@
     <object Name="Sibs_Garden_MossWall"></object>
     <object Name="Floor"></object>
   </cell>
-  <cell X="44" Y="6"></cell>
+  <cell X="44" Y="6">
+    <object Name="Solar Power Station"></object>
+  </cell>
   <cell X="45" Y="6"></cell>
   <cell X="46" Y="6"></cell>
   <cell X="47" Y="6"></cell>
