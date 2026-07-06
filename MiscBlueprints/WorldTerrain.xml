@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
- 
   <object Name="Sibs_TerrainRubberOrchard" Inherits="Terrain">
     <part Name="Render" DisplayName="rubber orchard" RenderString="005" ColorString="&amp;G^k" Tile="Terrain/gardengeth/rubberorchard1.png" HFlip="false" />
     <part Name="RandomWorldTile" Tiles="Terrain/gardengeth/rubberorchard1.png,Terrain/gardengeth/rubberorchard2.png,Terrain/gardengeth/rubberorchard3.png,Terrain/gardengeth/rubberorchard4.png"  />
@@ -12,5 +11,8 @@
     <tag Name="RuinWalls" Value="HighTierRegionRuinWalls" />
     <tag Name="RegionTier" Value="6" />
   </object>
-
+  <object Name="Sibs_TerrainSecretGarden" Inherits="Sibs_TerrainRubberOrchard">
+    <tag Name="NoBiomes" Value="1" />
+    <tag Name="NoRiver" Value="1" />
+  </object>
 </objects>
