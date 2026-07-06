@@ -1,0 +1,14 @@
+  <objects>
+  <!--
+
+    ********************
+       Quest triggers
+    ********************
+
+  -->
+
+  <object Name="Finish_Sibs_Garden_MainQuest_Find" Inherits="Widget">
+    <part Name="QuestStepFinisher" Trigger="Created" Quest="Sibs_Garden_MainQuest" Step="Find" />
+  </object>
+
+</objects>

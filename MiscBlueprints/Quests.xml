@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<quests>
+
+    <quest ID="Sibs_Garden_MainQuest" Name="Find the Lost Garden" Factions="Kyakukya" Level="20" Reputation="200" 
+		Accomplishment="You solved the mystery of the Lost Garden of Geth."
+		Hagiograph="jsp quoi ecrire"
+		HagiographCategory="CreatesSomething"
+		Gospel="alors la">
+
+		<step ID="Find" Name="Find the Lost Garden" XP="500">
+			<text>Find the Lost Garden of Geth hidden away in the Rubber Orchard.</text>
+		</step>
+
+		<step ID="Solve" Name="Find out what happened in the Lost Garden" XP="1000">
+			<text>Solve the mystery of the Lost Garden of Geth.</text>
+		</step>
+
+		<step ID="Debrief" Name="Report Back to Mudokah" XP="2000">
+			<text>Inform Mudokah that the Lost Garden of Geth has been found.</text>
+		</step>
+
+	</quest>
+
+</quests>
