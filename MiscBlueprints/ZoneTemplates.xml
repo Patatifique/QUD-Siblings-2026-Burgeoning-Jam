@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <zonetemplates>
   
-    <zonetemplate Name="Rubber Orchard" RegionSize="200">
+    <zonetemplate Name="RubberOrchard" RegionSize="200">
         <global>      
-        <population Table="RubberOrchardZoneGlobals-Surface" Hint="Any"></population>
-        <cellfilterout Filter="!Reachable">
-            <population Table="RubberOrchardZoneGlobals-Reachable"></population>
-        </cellfilterout>
+        <population Table="RubberOrchardZoneGlobals" Hint="Any"></population>
         </global>
 
         <eachregion>
