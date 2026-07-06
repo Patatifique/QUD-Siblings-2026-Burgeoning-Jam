@@ -27,6 +27,7 @@
 		<zone Level="10" x="1" y="1" Name="lost garden" ProperName="true" IncludeStratumInZoneDisplay="false" DisableForcedConnections="Yes" HasWeather="true" WindSpeed="0-60" WindDirections="W,SW,S,SE" WindDuration="50-3000">
 			<map FileName="Sibs_GardenSurface.rpm"></map>
 			<music Track="Music/lostgarden/overgrowth.mp3" />
+			<builder Class="PulldownLocation" x="31" y="24"></builder>
 		</zone>
 	  
 	  	<zone Level="11" x="1" y="1" Name="undergarden" DisableForcedConnections="Yes">

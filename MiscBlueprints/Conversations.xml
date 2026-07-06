@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+
+	<conversation ID="Crowsong" Load="Merge">
+		
+		<node ID="Swords" Load="Merge">
+			<choice Target="SeenSven" IfHaveState="Sibs_Garden_SvenSeen" Priority="10">That one is no cord -- I have reasons to believe he survived.</choice>
+		</node>	
+  
+  		<node ID="SeenSven" Inherits="Welcome">
+			A thread unwoven, to what consequence? I am here, he is there, and that is enough.
+		</node>
+  
+	</conversation>
+  
+  
+  
+  
+  
+	<conversation ID="Sibs_Garden_Cartographer" >
+		
+		
+  
+	</conversation>
+  
+  
+  
+    
+  
+	<conversation ID="Sibs_Garden_Computer">
+		
+		<start ID="Welcome" Inherits="DefaultChoices">
+			<text>
+				UPTIME COUNT OVERFLOWED.
+				
+				ACCESS PERMISSIONS RECALIBRATED FOR NEW BASIC USER.
+				
+				[... I AM AWAITING COMMAND ...]
+				
+				{{emote|*A keyboard covered in glyphs lets you input your own answers to the mainframe.*}}
+			</text>
+		</start>
+
+		<node ID="DefaultChoices">
+			<choice Target="AboutYou">WHO ARE YOU?</choice>
+			<choice Target="AboutPlace">WHAT IS THIS PLACE?</choice>
+			<choice Target="Map" IfHaveQuest="Sibs_Garden_MainQuest" IfNotFinishedQuestStep="Sibs_Garden_MainQuest~Solve">HOW COME THIS PLACE IS IN RUINS AND NOT DISPLAYED ON MAPS?</choice>			
+			<choice Target="AboutTroll">DO YOU NOT MIND THE FACT A TROLL SET UP SHOP NEARBY?</choice>
+			<choice Target="End">EXIT.</choice>
+		</node>
+  
+		<node ID="AboutYou" Inherits="Welcome">
+			<text>
+				I AM GESHTINANNA, KEEPER OF ABUNDANCE. HOWEVER MUCH YOU TAKE, YOU ARE ASKED TO GIVE BACK TENFOLD.
+			</text>
+		</node>  
+  
+		<node ID="AboutPlace" Inherits="Welcome">
+			<text>
+				A STRONGHOLD OF PLENTY: ROOTS AND SEEDS, STOCKPILED FOR THE FUTURE.
+				
+				[!!! I AM DETECTING A PARTIAL BREACH !!!]
+				
+				YOU ARE RECOMMENDED TO TAKE ACTION TO PREVENT CROSS-POLLINATION.
+			</text>
+		</node>    
+  
+ 		<node ID="AboutTroll" Inherits="Welcome">
+			<text>
+				EATERS DID NOT FASHION ME TO CARE FOR ZOOLOGICAL LIFE WITHIN THESE HALLS. 
+			</text>
+		</node>   
+
+  		<node ID="Map">
+			<text>
+				THE SOIL SHAKES AND OPENS A SKYWARD EYE. FIND SOLACE IN THAT ANSWER FOR I HAVE NONE OTHER. 
+			</text>
+			<choice Target="Map2">I SEE. WHAT ABOUT MAPS? WHY IS THIS PLACE NOT BETTER KNOWN?</choice>
+		</node>
+
+  		<node ID="Map2">
+			<text>
+				SOME OTHER TRAVELER CAME BEFORE AND LEFT SAYING THEY WOULD SPREAD WORD OF THIS PLACE. 
+				
+				I LACK DATA TO ANSWER THE REST OF THE INCQUIRY.
+				
+				[... I AM FORMULATING AN HYPOTHESIS ...]
+				
+				PERHAPS MEMORY IS AKIN TO PLANT LIFE: BOTH REQUIRE WATERING, LEST THEY WITHER. YOU ARE THE FIRST TO HAVE COME HERE SINCE THEN.
+			</text>
+			<choice Target="Exit" CompleteQuestStep="Sibs_Garden_MainQuest~Solve">THIS FITS HOW DIFFICULT THAT PLACE IS TO ACCESS. THANK YOU. EXIT.</choice>
+		</node>  		
+  
+	</conversation>  
+	
+  
+  	<conversation ID="Sibs_Garden_Troll">
+		
+		<start ID="Welcome" Inherits="DefaultChoices">
+			<text>
+				{{emote|*The massive troll looks down at you, brandishing the frond =pronouns.objective= =verb:keep:afterpronoun= planted in a small enameled cup.*}}
+				
+				You! We are trading now.
+			</text>
+		</start>
+
+		<node ID="DefaultChoices">
+			<choice Target="ChillTroll">You do not seem like the other trolls I have met upstairs.</choice>
+			<choice Target="AboutPlace">Do you know what this place is?</choice>
+			<choice Target="Plant">That plant you carry around. Are you a guardian for the Consortium?</choice>
+			<choice Target="NoTrade">What if I don't want to trade?</choice>
+			<choice Target="End">I must go -- live and drink.</choice>
+		</node>	
+
+		<node ID="AboutPlace" Inherits="Welcome">
+			<text>
+				My shelter! You are being careful behind those doors -- the walls flicker and want to talk.
+			</text>
+		</node>
+
+		<node ID="ChillTroll" Inherits="Welcome">
+			<text>
+				Ah, yes! Budded from my flesh. Foals are restless, but peace is with me now. Storied relics are best traded for than stolen, see?
+			</text>
+		</node>
+		
+		<node ID="Plant" Inherits="Welcome">
+			<text>
+				{{emote|*The troll gently strokes a budding leaf.*}}
+				
+				Ne is not a member of the Consortium yet! Once growth has stretched nir foliage, ne will be.
+			</text>
+		</node>
+				
+		<node ID="NoTrade" Inherits="Welcome">
+			<text>
+				You do not understand. We *are* trading now -- words, air, maybe water.
+			</text>
+		</node>
+  
+	</conversation>
+  
+  
+	<conversation ID="Sibs_Garden_Sven" >
+		
+		<start ID="Welcome" Inherits="DefaultChoices">
+			<text>
+				{{emote|*The hermit =verb:look= up at you from =pronouns.possessive= sitting position, rubbing =pronouns.possessive= bad leg.*}}
+				
+				Hmm? A traveler? That is an unusual sight. Come share the shade, =player.formalAddressTerm=.
+			</text>
+		</start>
+
+		<node ID="DefaultChoices">
+			<choice Target="AboutPlace">What is this place?</choice>
+			<choice Target="AboutYou">I was not expecting to find someone so remote from nearby villages.</choice>
+			<choice Target="Cucumbers">I have never seen so many cucumbers in one place...</choice>
+			<choice Target="End">I must go -- live and drink.</choice>
+		</node>
+  
+ 		<node ID="AboutPlace" Inherits="Welcome">
+			<text>
+				A forgotten place for forgotten things. The rubber trees seldom let people approach, and most avoid it altogether -- no game to hunt, no spoils to claim. Nothing but peace and the creeping vines.
+			</text>
+			<choice Target="Hole" Priority="10">What about that chasm there? Where does it lead?</choice>
+		</node>
+  		
+		<node ID="Hole" Inherits="Welcome">
+			<text>
+				Below. Mind that you are equipped for adversity, only the very bottom lends itself to friendly conversations.
+			</text>
+		</node>
+   
+   		<node ID="AboutYou" Inherits="Welcome">
+			<text>
+				And you have not. I am noone worth remembering, and have shed my name where I once laid. Hindsun will see you on your way soon enough, leaving here the memory of our meeting.
+			</text>
+			<choice Target="YouAreSven" IfHaveState="Sibs_Garden_CrowsongSeen" Priority="10">Your hands flew in rememberance of twin swords, I wager. I have seen a snapjaw in Kyakukya where once a great hunter stood -- word is you died, but here you are!</choice>
+		</node>	 
+
+		<node ID="YouAreSven" Inherits="Welcome">
+			<text>
+				{{emote|*The hermit closes =pronouns.possessive= eyes for an instant.*}}
+				
+				Whoever you are thinking of, =player.formalAddressTerm=, they are long dead.
+			</text>
+		</node>
+		 
+		<node ID="Cucumbers" Inherits="Welcome">
+			<text>
+				{{emote|*A dry chuckle escapes =pronouns.possessive= lips.*}}
+				
+				Clever fronds! Turning spoilwater into fruit, now that is a skill many wish they possessed.
+			</text>
+		</node> 
+  
+	</conversation>
+	
+  
+</conversations>

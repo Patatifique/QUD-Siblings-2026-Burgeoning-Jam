@@ -23,7 +23,8 @@
  
 	<object Name="Sibs_Garden_MainframeWall" Inherits="BaseWallMainframe">
 		<part Name="Render" ColorString="&amp;y^y" TileColor="&amp;y" DetailColor="y" />
-		<tag Name="ExcludeFromDynamicEncounters" />		
+		<tag Name="ExcludeFromDynamicEncounters" />	
+		<part Name="Interesting" Key="GritGateMainframeTerminal" />
 	</object>
 
 	<object Name="Sibs_Garden_MainframeTape" Inherits="Sibs_Garden_MainframeWall">
@@ -36,7 +37,7 @@
 		<part Name="AnimatedMaterialMainframeTapeDrive" />    
 	</object>
 
-	<object Name="Sibs_Garden_Mainframestatus" Inherits="Sibs_Garden_MainframeWall">
+	<object Name="Sibs_Garden_MainframeStatus" Inherits="Sibs_Garden_MainframeWall">
 		<part Name="Render" DisplayName="mainframe status panel" />
 		<part Name="ConversationScript" ConversationID="Sibs_Garden_Computer" />
 		<part Name="Description" Short="Across a field of brass and chrome diodes blink in gyres." />

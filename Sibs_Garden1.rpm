@@ -347,13 +347,13 @@
     <object Name="Fulcrete"></object>
   </cell>
   <cell X="35" Y="1">
-    <object Name="Fulcrete"></object>
+    <object Name="Rubble"></object>
   </cell>
   <cell X="36" Y="1">
-    <object Name="Fulcrete"></object>
+    <object Name="Rubble"></object>
   </cell>
   <cell X="37" Y="1">
-    <object Name="Fulcrete"></object>
+    <object Name="LargeBoulder"></object>
   </cell>
   <cell X="38" Y="1">
     <object Name="Fulcrete"></object>
@@ -588,16 +588,16 @@
     <object Name="Fulcrete"></object>
   </cell>
   <cell X="35" Y="2">
-    <object Name="Fulcrete"></object>
+    <object Name="Rubble"></object>
   </cell>
   <cell X="36" Y="2">
-    <object Name="Fulcrete"></object>
+    <object Name="StairsUp"></object>
   </cell>
   <cell X="37" Y="2">
-    <object Name="Fulcrete"></object>
+    <object Name="StairsDown"></object>
   </cell>
   <cell X="38" Y="2">
-    <object Name="Fulcrete"></object>
+    <object Name="Rubble"></object>
   </cell>
   <cell X="39" Y="2">
     <object Name="Fulcrete"></object>
@@ -828,10 +828,10 @@
     <object Name="Fulcrete"></object>
   </cell>
   <cell X="35" Y="3">
-    <object Name="Fulcrete"></object>
+    <object Name="Rubble"></object>
   </cell>
   <cell X="36" Y="3">
-    <object Name="Fulcrete"></object>
+    <object Name="MediumBoulder"></object>
   </cell>
   <cell X="37" Y="3">
     <object Name="Fulcrete"></object>
@@ -2249,6 +2249,7 @@
   </cell>
   <cell X="54" Y="9">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="55" Y="9">
     <object Name="FlyingWhitelistArea"></object>
@@ -2293,7 +2294,8 @@
     <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="67" Y="9">
-    <object Name="Rubble"></object>
+    <object Name="FlyingWhitelistArea"></object>
+    <object Name="SmallBoulder"></object>
   </cell>
   <cell X="68" Y="9">
     <object Name="Rubble"></object>
@@ -2492,6 +2494,7 @@
   </cell>
   <cell X="53" Y="10">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="54" Y="10">
     <object Name="FlyingWhitelistArea"></object>
@@ -2546,9 +2549,11 @@
   </cell>
   <cell X="67" Y="10">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="68" Y="10">
-    <object Name="Rubble"></object>
+    <object Name="FlyingWhitelistArea"></object>
+    <object Name="SmallBoulder"></object>
   </cell>
   <cell X="69" Y="10">
     <object Name="Rubble"></object>
@@ -2741,6 +2746,7 @@
   </cell>
   <cell X="52" Y="11">
     <object Name="GlassWall"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="53" Y="11">
     <object Name="FlyingWhitelistArea"></object>
@@ -2804,9 +2810,11 @@
   </cell>
   <cell X="68" Y="11">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="69" Y="11">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="70" Y="11">
     <object Name="Fulcrete"></object>
@@ -2993,8 +3001,8 @@
     <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="53" Y="12">
-    <object Name="Sibs_Garden_DarkGreenPit"></object>
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="54" Y="12">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -3053,11 +3061,11 @@
     <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="68" Y="12">
-    <object Name="Sibs_Garden_DarkGreenPit"></object>
     <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="69" Y="12">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="70" Y="12">
     <object Name="MediumBoulder"></object>
@@ -3245,8 +3253,8 @@
     <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="53" Y="13">
-    <object Name="Sibs_Garden_DarkGreenPit"></object>
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="54" Y="13">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -3305,11 +3313,12 @@
     <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="68" Y="13">
-    <object Name="Sibs_Garden_DarkGreenPit"></object>
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="69" Y="13">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="70" Y="13">
     <object Name="Rubble"></object>
@@ -3479,9 +3488,9 @@
   </cell>
   <cell X="52" Y="14">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="53" Y="14">
-    <object Name="Sibs_Garden_DarkGreenPit"></object>
     <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="54" Y="14">
@@ -3541,8 +3550,8 @@
     <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="68" Y="14">
-    <object Name="Sibs_Garden_DarkGreenPit"></object>
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="69" Y="14">
     <object Name="FlyingWhitelistArea"></object>
@@ -3735,6 +3744,7 @@
   </cell>
   <cell X="52" Y="15">
     <object Name="GlassWall"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="53" Y="15">
     <object Name="FlyingWhitelistArea"></object>
@@ -3798,9 +3808,11 @@
   </cell>
   <cell X="68" Y="15">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="69" Y="15">
-    <object Name="Rubble"></object>
+    <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="70" Y="15">
     <object Name="Fulcrete"></object>
@@ -3989,6 +4001,7 @@
   </cell>
   <cell X="53" Y="16">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="54" Y="16">
     <object Name="FlyingWhitelistArea"></object>
@@ -4048,6 +4061,7 @@
   </cell>
   <cell X="68" Y="16">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="69" Y="16">
     <object Name="Sibs_Garden_CucumberCrop"></object>
@@ -4246,6 +4260,7 @@
   </cell>
   <cell X="54" Y="17">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="55" Y="17">
     <object Name="FlyingWhitelistArea"></object>
@@ -4256,6 +4271,7 @@
   </cell>
   <cell X="57" Y="17">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="58" Y="17">
     <object Name="FlyingWhitelistArea"></object>
@@ -4277,6 +4293,7 @@
   </cell>
   <cell X="63" Y="17">
     <object Name="FlyingWhitelistArea"></object>
+    <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="64" Y="17">
     <object Name="FlyingWhitelistArea"></object>
@@ -4290,7 +4307,7 @@
     <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="67" Y="17">
-    <object Name="Rubble"></object>
+    <object Name="FlyingWhitelistArea"></object>
   </cell>
   <cell X="68" Y="17">
     <object Name="Rubble"></object>
@@ -4737,7 +4754,9 @@
   <cell X="58" Y="19">
     <object Name="Rubble"></object>
   </cell>
-  <cell X="59" Y="19"></cell>
+  <cell X="59" Y="19">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="60" Y="19">
     <object Name="Troll Foal"></object>
   </cell>

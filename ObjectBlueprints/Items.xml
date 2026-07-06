@@ -21,6 +21,7 @@
 		<part Name="Physics" Weight="3" Conductivity="0" Organic="true" />
 		<part Name="Springy" Factor="0.9" />
 		<tag Name="EquipSound" Value="sfx_equip_armor_synthetic" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 		<tag Name="Tier" Value="4" />
 	</object>
 	
@@ -40,6 +41,13 @@
 		<part Name="Yurtmat" />
 	</object>
 	
-
+	<object Name="Sibs_Garden_Recoiler" Inherits="BaseRecoiler">
+		<part Name="Render" DisplayName="{{leafy|lost garden}} recoiler" />
+		<part Name="Teleporter" DestinationZone="JoppaWorld.34.2.1.1.13" DestinationX="49" DestinationY="14" />
+		<part Name="TinkerItem" CanBuild="false" />
+		<part Name="Commerce" Value="45" />
+		<tag Name="Tier" Value="4" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
 	
 </objects>

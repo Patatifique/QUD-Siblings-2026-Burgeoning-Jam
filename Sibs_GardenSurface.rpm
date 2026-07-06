@@ -309,6 +309,7 @@
   </cell>
   <cell X="36" Y="2">
     <object Name="Floor"></object>
+    <object Name="StairsDown"></object>
   </cell>
   <cell X="37" Y="2">
     <object Name="Floor"></object>
@@ -876,7 +877,7 @@
   <cell X="26" Y="6"></cell>
   <cell X="27" Y="6"></cell>
   <cell X="28" Y="6">
-    <object Name="Solar Condenser"></object>
+    <object Name="Solar Power Station"></object>
   </cell>
   <cell X="29" Y="6">
     <object Name="Sibs_Garden_MossWall"></object>
@@ -939,11 +940,15 @@
   <cell X="51" Y="6"></cell>
   <cell X="52" Y="6"></cell>
   <cell X="53" Y="6"></cell>
-  <cell X="54" Y="6"></cell>
+  <cell X="54" Y="6">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="55" Y="6"></cell>
   <cell X="56" Y="6"></cell>
   <cell X="57" Y="6"></cell>
-  <cell X="58" Y="6"></cell>
+  <cell X="58" Y="6">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="59" Y="6"></cell>
   <cell X="60" Y="6"></cell>
   <cell X="61" Y="6">
@@ -1090,7 +1095,9 @@
   <cell X="56" Y="7"></cell>
   <cell X="57" Y="7"></cell>
   <cell X="58" Y="7"></cell>
-  <cell X="59" Y="7"></cell>
+  <cell X="59" Y="7">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="60" Y="7"></cell>
   <cell X="61" Y="7"></cell>
   <cell X="62" Y="7">
@@ -1100,7 +1107,9 @@
   <cell X="64" Y="7"></cell>
   <cell X="65" Y="7"></cell>
   <cell X="66" Y="7"></cell>
-  <cell X="67" Y="7"></cell>
+  <cell X="67" Y="7">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="68" Y="7"></cell>
   <cell X="69" Y="7"></cell>
   <cell X="70" Y="7"></cell>
@@ -1389,9 +1398,11 @@
   <cell X="50" Y="9"></cell>
   <cell X="51" Y="9"></cell>
   <cell X="52" Y="9"></cell>
-  <cell X="53" Y="9"></cell>
-  <cell X="54" Y="9">
+  <cell X="53" Y="9">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
+  <cell X="54" Y="9">
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="55" Y="9">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -1430,7 +1441,7 @@
     <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="67" Y="9">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="68" Y="9">
     <object Name="Sibs_Garden_CucumberCrop"></object>
@@ -1547,7 +1558,7 @@
     <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="53" Y="10">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="54" Y="10">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -1592,10 +1603,14 @@
     <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="68" Y="10">
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
+  </cell>
+  <cell X="69" Y="10">
     <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
-  <cell X="69" Y="10"></cell>
-  <cell X="70" Y="10"></cell>
+  <cell X="70" Y="10">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="71" Y="10"></cell>
   <cell X="72" Y="10"></cell>
   <cell X="73" Y="10"></cell>
@@ -1686,7 +1701,7 @@
     <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="52" Y="11">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="53" Y="11">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -1737,10 +1752,12 @@
     <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="69" Y="11">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="70" Y="11"></cell>
-  <cell X="71" Y="11"></cell>
+  <cell X="71" Y="11">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="72" Y="11"></cell>
   <cell X="73" Y="11"></cell>
   <cell X="74" Y="11"></cell>
@@ -2262,7 +2279,7 @@
   <cell X="50" Y="15"></cell>
   <cell X="51" Y="15"></cell>
   <cell X="52" Y="15">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="53" Y="15">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -2313,7 +2330,7 @@
     <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="69" Y="15">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="70" Y="15"></cell>
   <cell X="71" Y="15">
@@ -2407,11 +2424,15 @@
   <cell X="47" Y="16"></cell>
   <cell X="48" Y="16"></cell>
   <cell X="49" Y="16"></cell>
-  <cell X="50" Y="16"></cell>
-  <cell X="51" Y="16"></cell>
-  <cell X="52" Y="16"></cell>
-  <cell X="53" Y="16">
+  <cell X="50" Y="16">
     <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
+  <cell X="51" Y="16"></cell>
+  <cell X="52" Y="16">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
+  <cell X="53" Y="16">
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="54" Y="16">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -2456,10 +2477,14 @@
     <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="68" Y="16">
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
+  </cell>
+  <cell X="69" Y="16">
     <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
-  <cell X="69" Y="16"></cell>
-  <cell X="70" Y="16"></cell>
+  <cell X="70" Y="16">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="71" Y="16"></cell>
   <cell X="72" Y="16"></cell>
   <cell X="73" Y="16"></cell>
@@ -2546,11 +2571,13 @@
   <cell X="48" Y="17"></cell>
   <cell X="49" Y="17"></cell>
   <cell X="50" Y="17"></cell>
-  <cell X="51" Y="17"></cell>
+  <cell X="51" Y="17">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="52" Y="17"></cell>
   <cell X="53" Y="17"></cell>
   <cell X="54" Y="17">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="55" Y="17">
     <object Name="Sibs_Garden_DarkGreenPit"></object>
@@ -2589,7 +2616,7 @@
     <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="67" Y="17">
-    <object Name="Sibs_Garden_CucumberCrop"></object>
+    <object Name="Sibs_Garden_DarkGreenPit"></object>
   </cell>
   <cell X="68" Y="17">
     <object Name="Sibs_Garden_CucumberCrop"></object>
@@ -2598,7 +2625,9 @@
     <object Name="Sibs_Garden_CucumberCrop"></object>
   </cell>
   <cell X="70" Y="17"></cell>
-  <cell X="71" Y="17"></cell>
+  <cell X="71" Y="17">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="72" Y="17"></cell>
   <cell X="73" Y="17"></cell>
   <cell X="74" Y="17"></cell>
@@ -2805,7 +2834,9 @@
   <cell X="57" Y="19"></cell>
   <cell X="58" Y="19"></cell>
   <cell X="59" Y="19"></cell>
-  <cell X="60" Y="19"></cell>
+  <cell X="60" Y="19">
+    <object Name="Sibs_Garden_CucumberCrop"></object>
+  </cell>
   <cell X="61" Y="19"></cell>
   <cell X="62" Y="19"></cell>
   <cell X="63" Y="19"></cell>

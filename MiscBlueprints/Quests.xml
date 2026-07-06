@@ -2,22 +2,22 @@
 
 <quests>
 
-    <quest ID="Sibs_Garden_MainQuest" Name="Find the Lost Garden" Factions="Kyakukya" Level="20" Reputation="200" 
-		Accomplishment="You solved the mystery of the Lost Garden of Geth."
-		Hagiograph="jsp quoi ecrire"
-		HagiographCategory="CreatesSomething"
-		Gospel="alors la">
+    <quest ID="Sibs_Garden_MainQuest" Name="Maps of Yesteryear" Factions="Kyakukya" Level="20" Reputation="200" 
+		Accomplishment="You found forgotten gardens deep within the rubber orchards."
+		Hagiograph="Bleeding trees dry of their sap, =name= breathed life into a rubber effigy and deemed her Mudokah."
+		HagiographCategory="Trysts"
+		Gospel="After felling a giant rubber tree, =name= cemented =player.possessive= friendship with hermits by raising an effigy of =player.reflexive=. Once the work done, they shed a drop of blood on it, and the newly awakened being called herself Mudokah.">
 
-		<step ID="Find" Name="Find the Lost Garden" XP="500">
-			<text>Find the Lost Garden of Geth hidden away in the Rubber Orchard.</text>
+		<step ID="Find" Name="Travel to the Lost Garden" XP="1000">
+			<text>Journey to the center of the rubber orchard in search of a hidden lost garden.</text>
 		</step>
 
-		<step ID="Solve" Name="Find out what happened in the Lost Garden" XP="1000">
-			<text>Solve the mystery of the Lost Garden of Geth.</text>
+		<step ID="Solve" Name="Unveil the History of the Lost Garden" XP="1000">
+			<text>Descend to the bottom of the lost garden and unveil the mystery behind its existence.</text>
 		</step>
 
-		<step ID="Debrief" Name="Report Back to Mudokah" XP="2000">
-			<text>Inform Mudokah that the Lost Garden of Geth has been found.</text>
+		<step ID="Debrief" Name="Report Back to Mudokah" XP="3000">
+			<text>Return to Mudokah and inform her of the lost garden's history.</text>
 		</step>
 
 	</quest>
