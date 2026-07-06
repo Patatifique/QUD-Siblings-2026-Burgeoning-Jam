@@ -1333,7 +1333,9 @@
     <object Name="Troll Foal"></object>
   </cell>
   <cell X="54" Y="5"></cell>
-  <cell X="55" Y="5"></cell>
+  <cell X="55" Y="5">
+    <object Name="Garbage"></object>
+  </cell>
   <cell X="56" Y="5"></cell>
   <cell X="57" Y="5">
     <object Name="Glass Door"></object>
@@ -1346,7 +1348,9 @@
     <object Name="Glass Door"></object>
   </cell>
   <cell X="63" Y="5"></cell>
-  <cell X="64" Y="5"></cell>
+  <cell X="64" Y="5">
+    <object Name="Garbage"></object>
+  </cell>
   <cell X="65" Y="5"></cell>
   <cell X="66" Y="5"></cell>
   <cell X="67" Y="5">
@@ -1563,10 +1567,14 @@
     <object Name="Techlight2"></object>
   </cell>
   <cell X="64" Y="6"></cell>
-  <cell X="65" Y="6"></cell>
+  <cell X="65" Y="6">
+    <object Name="Medical Chair"></object>
+  </cell>
   <cell X="66" Y="6"></cell>
   <cell X="67" Y="6"></cell>
-  <cell X="68" Y="6"></cell>
+  <cell X="68" Y="6">
+    <object Name="Medical Chair"></object>
+  </cell>
   <cell X="69" Y="6">
     <object Name="SmallBoulder"></object>
   </cell>
@@ -2953,7 +2961,9 @@
     <object Name="MediumBoulder"></object>
   </cell>
   <cell X="41" Y="12"></cell>
-  <cell X="42" Y="12"></cell>
+  <cell X="42" Y="12">
+    <object Name="Garbage"></object>
+  </cell>
   <cell X="43" Y="12"></cell>
   <cell X="44" Y="12">
     <object Name="LargeBoulder"></object>
@@ -3443,12 +3453,16 @@
   </cell>
   <cell X="37" Y="14"></cell>
   <cell X="38" Y="14"></cell>
-  <cell X="39" Y="14"></cell>
+  <cell X="39" Y="14">
+    <object Name="Garbage"></object>
+  </cell>
   <cell X="40" Y="14"></cell>
   <cell X="41" Y="14"></cell>
   <cell X="42" Y="14"></cell>
   <cell X="43" Y="14"></cell>
-  <cell X="44" Y="14"></cell>
+  <cell X="44" Y="14">
+    <object Name="Garbage"></object>
+  </cell>
   <cell X="45" Y="14"></cell>
   <cell X="46" Y="14"></cell>
   <cell X="47" Y="14"></cell>
@@ -3935,7 +3949,7 @@
     <object Name="Fulcrete"></object>
   </cell>
   <cell X="39" Y="16">
-    <object Name="Fulcrete"></object>
+    <object Name="Sibs_Garden_MossWall"></object>
   </cell>
   <cell X="40" Y="16">
     <object Name="Sibs_Garden_MossWall"></object>
@@ -4934,7 +4948,9 @@
   <cell X="50" Y="20"></cell>
   <cell X="51" Y="20"></cell>
   <cell X="52" Y="20"></cell>
-  <cell X="53" Y="20"></cell>
+  <cell X="53" Y="20">
+    <object Name="Garbage"></object>
+  </cell>
   <cell X="54" Y="20"></cell>
   <cell X="55" Y="20"></cell>
   <cell X="56" Y="20">
@@ -4955,7 +4971,9 @@
     <object Name="Glass Door"></object>
   </cell>
   <cell X="63" Y="20"></cell>
-  <cell X="64" Y="20"></cell>
+  <cell X="64" Y="20">
+    <object Name="Garbage"></object>
+  </cell>
   <cell X="65" Y="20"></cell>
   <cell X="66" Y="20">
     <object Name="Troll Foal"></object>
