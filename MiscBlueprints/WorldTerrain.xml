@@ -11,7 +11,7 @@
     <tag Name="RuinWalls" Value="HighTierRegionRuinWalls" />
     <tag Name="RegionTier" Value="6" />
   </object>
-  <object Name="Sibs_TerrainSecretGarden" Inherits="Sibs_TerrainRubberOrchard">
+  <object Name="Sibs_TerrainLostGarden" Inherits="Sibs_TerrainRubberOrchard">
     <tag Name="NoBiomes" Value="1" />
     <tag Name="NoRiver" Value="1" />
   </object>

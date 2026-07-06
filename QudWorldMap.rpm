@@ -21,7 +21,7 @@
     <object Name="Sibs_TerrainRubberOrchard"></object>
   </cell>
   <cell X="34" Y="2">
-    <object Name="Sibs_TerrainRubberOrchard"></object>
+    <object Name="Sibs_TerrainLostGarden"></object>
   </cell>
   <cell X="35" Y="2">
     <object Name="Sibs_TerrainRubberOrchard"></object>
