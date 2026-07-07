@@ -2,5 +2,6 @@
 
 - Concept and Design: Balthichou & Patatifique
 - Spritework: Balthichou & Patatifique
+- Music: Patatifique
 - Writing: Balthichou
 - XML Formatting: Balthichou & Patatifique
