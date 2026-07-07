@@ -25,6 +25,7 @@
 		<part Name="Render" ColorString="&amp;y^y" TileColor="&amp;y" DetailColor="y" />
 		<tag Name="ExcludeFromDynamicEncounters" />	
 		<part Name="Interesting" Key="GritGateMainframeTerminal" />
+		<tag Name="NoTrade" />
 	</object>
 
 	<object Name="Sibs_Garden_MainframeTape" Inherits="Sibs_Garden_MainframeWall">
