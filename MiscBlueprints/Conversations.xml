@@ -266,7 +266,7 @@
 			</text>
 		</node>
 		 
-		<node ID="Cucumbers" Inherits="Welcome">Z
+		<node ID="Cucumbers" Inherits="Welcome">
 			<text>
 				{{emote|*A dry chuckle escapes =pronouns.possessive= lips.*}}
 				
