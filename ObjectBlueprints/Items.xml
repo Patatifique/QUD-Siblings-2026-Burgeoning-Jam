@@ -33,7 +33,7 @@
 		<part Name="LiquidVolume" MaxVolume="8" StartVolume="1-8" InitialLiquid="sap-1000" />
 		<part Name="LeakWhenBroken" />
 		<part Name="LiquidProducer" Liquid="sap" Rate="2000" WorksOnWearer="true" WorksOnSelf="false" />
-		<part Name="Description" Short="Gnarled age is given the apparence of youth, and a tap drips with the constant flow of lifesap." />
+		<part Name="Description" Short="Gnarled age is given the appearence of youth, and a tap drips with the constant flow of lifesap." />
 		<part Name="AddsRep" Faction="Trees" Value="200" />
 		<tag Name="EquipSound" Value="sfx_equip_armor_planty" />
 		<tag Name="Tier" Value="4" />
