@@ -3,19 +3,24 @@
 
 
 <!-- Rubber Orchard -->
-  <population Name="Sibs_Garden_RubberOrchardZoneGlobals">
-    <table Name="StandardSurfaceGlobals" />
-    <object Blueprint="Grassy" />
+	<population Name="Sibs_Garden_RubberOrchardZoneGlobals">
+		
+		<table Name="StandardSurfaceGlobals" />
+		
+		<object Blueprint="Grassy" />
 
-    <object Chance="95" Number="160-240" Blueprint="Sibs_Garden_RubberTree" />
-    <object Chance="95" Number="100-160" Blueprint="Shimscale Mangrove Tree" />
-    <object Chance="95" Number="50-100" Blueprint="Ziv Bough" />
-    <object Chance="40" Number="15-30" Blueprint="Star Palm" />
+		<object Chance="95" Number="160-240" Blueprint="Sibs_Garden_RubberTree" />
+		<object Chance="95" Number="100-160" Blueprint="Shimscale Mangrove Tree" />
+		<object Chance="95" Number="50-100" Blueprint="Ziv Bough" />
+		<object Chance="40" Number="15-30" Blueprint="Star Palm" />
 		<object Chance="40" Number="15-30" Blueprint="Sibs_Garden_CucumberCrop" />
 
-    <group Name="CreatureEncounter" Style="pickone">
+		<group Name="CreatureEncounter" Style="pickone">
+				
 			<group Weight="94" Number="1-3" Name="Creatures" Style="pickeach">
-        <object Chance="10" Number="1-3" Blueprint="Sibs_Garden_Waterbot"/>
+				<object Chance="10" Number="1-3" Blueprint="Sibs_Garden_Waterbot"/>
+				<object Chance="10" Number="3-4" Blueprint="Sibs_Garden_Thunderbird"/>		
+			
 				<object Chance="5" Number="1-2" Blueprint="Boar"/>
 				<object Chance="5" Number="1-4" Blueprint="Salamander"/>
 				<object Chance="10" Number="1-6" Blueprint="GiantDragonfly"/>
@@ -35,36 +40,50 @@
 				<object Chance="5" Number="1-3" Blueprint="Yonderbrush"/>
 				<object Chance="1" Number="2-6" Blueprint="Woodsprog" />
 			</group>			
+		
 			<object Weight="4" Number="2-6" Blueprint="Woodsprog" />
+		
 			<table Weight="2" Name="Nothing" />
+		
 		</group>
 
 
 		<group Chance="2" Name="DromadTrader" Style="pickone">
-      <object Weight="10" Blueprint="DromadTrader2" />
-      <object Weight="80" Blueprint="DromadTrader3" />
-      <object Weight="10" Blueprint="DromadTrader4" />
-    </group>
+			<object Weight="10" Blueprint="DromadTrader2" />
+			<object Weight="80" Blueprint="DromadTrader3" />
+			<object Weight="10" Blueprint="DromadTrader4" />
+		</group>
 
     <!-- Do better than throwing junk on the ground when we do sector encounters -->
-    <group Chance="3" Name="Junk" Style="pickone">
-      <table Name="Junk 1" />
-      <table Name="Junk 2" />
-    </group>
-  </population>
-
-  <population Name="Sibs_Garden_RubberOrchardPerSector">
-    <group Name="SpecialEncounters" Style="pickone">
-    </group>
-    <group Name="Creatures" Style="pickone">
-      <table Weight="9500" Name="Nothing" />
-      <table Weight="250" Name="Sibs_Garden_WaterbotParty" />  
-    </group>
-  </population>
+		<group Chance="3" Name="Junk" Style="pickone">
+			<table Name="Junk 1" />
+			<table Name="Junk 2" />
+		</group>
+		
+	</population>
 
 
-  <population Name="Sibs_Garden_WaterbotParty">
-    <object Chance="100" Number="4-8" Blueprint="Sibs_Garden_Waterbot" />
-  </population>
+	<population Name="Sibs_Garden_RubberOrchardPerSector">
+		
+		<group Name="SpecialEncounters" Style="pickone">
+		</group>
+		
+		<group Name="Creatures" Style="pickone">
+			<table Weight="9500" Name="Nothing" />
+			<table Weight="250" Name="Sibs_Garden_WaterbotParty" />
+			<table Weight="250" Name="Sibs_Garden_ThunderbirdFlock" />  	  
+		</group>
+		
+	</population>
+
+
+	<population Name="Sibs_Garden_WaterbotParty">
+		<object Chance="100" Number="4-8" Blueprint="Sibs_Garden_Waterbot" />
+	</population>
+  
+  
+	<population Name="Sibs_Garden_ThunderbirdFlock">
+		<object Chance="100" Number="4-8" Blueprint="Sibs_Garden_Thunderbird" />
+	</population>
 
 </populations>
