@@ -39,13 +39,13 @@
 			<choice Target="Debrief" IfHaveActiveQuest="Sibs_Garden_MainQuest" IfFinishedQuestStep="Sibs_Garden_MainQuest~Solve">Mudokah! I come with news of the lost garden.</choice>
 			<choice Target="AboutYou">What do you do here in Kyakukya?</choice>
 			<choice Target="Work" IfNotHaveQuest="Sibs_Garden_MainQuest">Can I help you with any work?</choice>
-			<choice Target="Map">I could use of of your maps, actually.</choice>
+			<choice Target="Map">I could use one of your maps, actually.</choice>
 			<choice Target="End">I will tell you of my travels later. In the meantime, live and drink.</choice>
 		</node>			
 		
 		<node ID="AboutYou" Inherits="Welcome">
 			<text>
-				Quite simple really! I map out my surroundings, and trade knowledge with locals. This quaint mushroom village is just the latest stop of my journey!
+				Quite simple, really! I map out my surroundings, and trade knowledge with locals. This quaint mushroom village is just the latest stop of my journey!
 			</text>
 		</node>	
 		
@@ -62,7 +62,7 @@
 			You most certainly can! You're a seasoned traveler, aren't you?	
 			</text>
 			<choice Target="Brief1">I have traveled Qud far and wide. I will handle whatever you throw my way.</choice>
-			<choice Target="Brief1">As long it is not too far away...</choice>
+			<choice Target="Brief1">As long as it is not too far away...</choice>
 		</node>
 
 		<node ID="Brief1">
@@ -96,10 +96,10 @@
 			<text>
 			{{emote|*Once your tale is over, =pronouns.subjective= =verb:set:afterpronoun= down =pronouns.possessive= notes.*}}
 			
-			That was quite the trekk! I cannot thank you enough, but perhaps I can make it worth your while. Those boots have never failed me, and I'm thinking you would put them to good use -- they are, ironically enough, made from the same rubber as those trees you found your way through.
+			That was quite the trek! I cannot thank you enough, but perhaps I can make it worth your while. Those boots have never failed me, and I'm thinking you would put them to good use -- they are, ironically enough, made from the same rubber as those trees you found your way through.
 			</text>
 			<choice Target="End" CompleteQuestStep="Sibs_Garden_MainQuest~Debrief" FinishQuest="Sibs_Garden_MainQuest">
-				<text>I will make sure to put the to good use. Live and drink, mapmaker.</text>
+				<text>I will make sure to put them to good use. Live and drink, mapmaker.</text>
 				<part Name="ReceiveItem" Blueprints="Sibs_Garden_RubberBoots" />
 			</choice>
 		</node>		
@@ -162,7 +162,7 @@
 			<text>
 				SOME OTHER TRAVELER CAME BEFORE AND LEFT SAYING THEY WOULD SPREAD WORD OF THIS PLACE. 
 				
-				I LACK DATA TO ANSWER THE REST OF THE INCQUIRY.
+				I LACK DATA TO ANSWER THE REST OF THE INQUIRY.
 				
 				[... I AM FORMULATING AN HYPOTHESIS ...]
 				
@@ -255,7 +255,7 @@
 			<text>
 				And you have not. I am noone worth remembering, and have shed my name where I once laid. Hindsun will see you on your way soon enough, leaving here the memory of our meeting.
 			</text>
-			<choice Target="YouAreSven" IfHaveState="Sibs_Garden_CrowsongSeen" Priority="10">Your hands flew in rememberance of twin swords, I wager. I have seen a snapjaw in Kyakukya where once a great hunter stood -- word is you died, but here you are!</choice>
+			<choice Target="YouAreSven" IfHaveState="Sibs_Garden_CrowsongSeen" Priority="10">Your hands flew in remembrance of twin swords, I wager. I have seen a snapjaw in Kyakukya where once a great hunter stood -- word is you died, but here you are!</choice>
 		</node>	 
 
 		<node ID="YouAreSven" Inherits="Welcome">
@@ -266,7 +266,7 @@
 			</text>
 		</node>
 		 
-		<node ID="Cucumbers" Inherits="Welcome">
+		<node ID="Cucumbers" Inherits="Welcome">Z
 			<text>
 				{{emote|*A dry chuckle escapes =pronouns.possessive= lips.*}}
 				
