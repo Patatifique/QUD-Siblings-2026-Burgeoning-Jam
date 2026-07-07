@@ -167,7 +167,7 @@
 	</object>
 
 	<object Name="Crowsong" Load="Merge">
-		<part Name="SetStateOnSeen" State="Sibs_Garden_CrowsongSeen" />
+		<part Name="SetStateAfterConversation" State="Sibs_Garden_CrowsongSeen" />
 	</object>
 	
 </objects>
