@@ -1,6 +1,6 @@
 2026 Burgeoning Jam: The Lost Garden
 
 - Concept and Design: Balthichou & Patatifique
-- Spritework: Balthichou
+- Spritework: Balthichou & Patatifique
 - Writing: Balthichou
 - XML Formatting: Balthichou & Patatifique

@@ -22,8 +22,8 @@
 	</object>
 	
 	<object Name="Sibs_Garden_Thunderbird" Inherits="BaseBird">
-		<part Name="Render" DisplayName="c-gull" RenderString="b" Tile="Creatures/lostgarden/thunderbird.png" DetailColor="W" ColorString="&amp;y" />
-		<part Name="Description" Short="Free electrons sizzle =pronouns.possessive= plumage, stacking coulombs over coulombs of held back punishment. The air about =pronouns.objective= strums with anticipation as =pronouns.subjective= =verb:swoop:afterpronoun= down upon prospective prey." />
+		<part Name="Render" DisplayName="coulombe" RenderString="b" Tile="Creatures/lostgarden/thunderbird.png" DetailColor="W" ColorString="&amp;y" />
+		<part Name="Description" Short="Free electrons sizzle =pronouns.possessive= plumage, stacking polarities of held back punishment. The air about =pronouns.objective= strums with anticipation as =pronouns.subjective= =verb:swoop:afterpronoun= down upon prospective prey." />
 		<stat Name="Level" Value="21" />
 		<stat Name="Hitpoints" Value="40" />
 		<stat Name="AV" Value="6" />
@@ -32,7 +32,7 @@
 		<mutation Name="ElectricalGeneration" Level="5" BaseChargePerTurnPercent="300" />
 		<tag Name="Role" Value="Artillery" />
 		<part Name="AIFlocks" FlocksWith="Sibs_Garden_Thunderbird" />
-		<tag Name="Species" Value="gull" />
+		<tag Name="Species" Value="dove" />
 		<inventoryobject Blueprint="Sibs_Garden_ThunderbirdBeak" Number="1" />
 	</object>
 
