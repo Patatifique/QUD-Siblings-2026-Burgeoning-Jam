@@ -7,7 +7,7 @@
     <part Name="Description" Short="Elastomere trunks rebound unwary travelers the way they once came." />
     <tag Name="DefaultWall" Value="Mudroot" />
     <tag Name="LairOwnerTable" Value="LairOwners_Jungle" />
-    <tag Name="Terrain" Value="Sibs_Garden_RubberOrchard" />
+    <tag Name="Terrain" Value="Jungle" />
     <tag Name="RuinWalls" Value="HighTierRegionRuinWalls" />
     <tag Name="RegionTier" Value="3" />
     <tag Name="NoAutowalk" />
