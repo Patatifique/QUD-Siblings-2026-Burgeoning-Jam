@@ -23,9 +23,9 @@
      
 				"Sibs_Garden_RubberOrchard": {
 					
-					"someIngredients": [ "rust", "boar hair", "ice frog spittle", "albino ape hair", "leech blood", "beetlebum chitin", "skunk hair", "hermit dander", "slug spit", "beetle chitin", "rubber tree seeds" ],
+					"someIngredients": [ "rust", "ice frog spittle", "albino ape hair", "leech blood", "beetlebum chitin", "skunk hair", "hermit dander", "slug spit", "beetle chitin", "rubber tree seeds", "cucumber seeds", "plastimax hair" ],
           
-					"aIngredients": [ "diaphanous wing", "chameleon horn", "bit of rubbery bark", "swarmshade leaf", "swarmshade root", "ziv leaf", "ziv root", "shimscale leaf", "star palm frond", "shimscale root", "quillipede quill", "mushroom cap", "$creaturePossessive $creatureBodyPart", "$creaturePossessive $creatureBodyPart" ]
+					"aIngredients": [ "diaphanous wing", "coulombe feather", "chameleon horn", "swarmshade leaf", "swarmshade root", "ziv leaf", "ziv root", "shimscale leaf", "star palm frond", "shimscale root", "quillipede quill", "slice of cucumber", "length of cucumber vine", "bit of rubbery bark", "$creaturePossessive $creatureBodyPart", "$creaturePossessive $creatureBodyPart" ]
 				}
        
 			}
