@@ -7,7 +7,7 @@
 	
 	<object Name="Sibs_Garden_Waterbot" Inherits="BaseRobot">
 		<part Name="Render" DisplayName="sprinklebot" Tile="Creatures/lostgarden/waterbot.png" RenderString="4" ColorString="&amp;y" DetailColor="c" />
-		<part Name="Description" Short="Sloshing against a traxenonoglass shell, irrigative prospect follows furrowing patterns led by alternating stilts. Where =pronouns.subjective= =verb:roam:afterpronoun=, a damp track welcomes burgeoning life." />
+		<part Name="Description" Short="Sloshing against a tetraxenonoglass shell, irrigative prospect follows furrowing patterns led by alternating stilts. Where =pronouns.subjective= =verb:roam:afterpronoun=, a damp track welcomes burgeoning life." />
 		<part Name="Brain" WandersRandomly="true" Wanders="true" Hostile="false" Calm="true" />
 		<part Name="AIWanderingJuggernaut" />
 		<stat Name="Level" Value="19" />
@@ -34,6 +34,7 @@
 		<part Name="AIFlocks" FlocksWith="Sibs_Garden_Thunderbird" />
 		<tag Name="Species" Value="dove" />
 		<inventoryobject Blueprint="Sibs_Garden_ThunderbirdBeak" Number="1" />
+		<part Name="Corpse" CorpseChance="20" CorpseBlueprint="Sibs_Garden_ThunderbirdCorpse" />
 	</object>
 
 	<object Name="Sibs_Garden_ThunderbirdBeak" Inherits="NaturalWeapon">
@@ -42,8 +43,48 @@
 		<part Name="ElementalDamage" Damage="2d4" Attributes="Electric" />
 	</object>	
 
+	<object Name="Sibs_Garden_ThunderbirdCorpse" Inherits="Small Animal Corpse">
+		<part Name="Render" DisplayName="coulombe corpse" />     
+		<part Name="Butcherable" OnSuccess="Sibs_CatsDogs_ThunderbirdGizzard" />
+		<part Name="Food" Message="The meat makes your gums itch and tingle." />
+		<part Name="Physics" Weight="60" />
+		<part Name="Commerce" Value="5" />
+		<tag Name="Tier" Value="2" />    		
+	</object>
 
-
+	<object Name="Sibs_Garden_PlastiferZebra" Inherits="BaseEquine">
+		<part Name="Corpse" CorpseChance="10" CorpseBlueprint="Sibs_Garden_PlastiferZebraCorpse" />
+		<part Name="Render" DisplayName="{{plastifer|plastimax}}" RenderString="y" Tile="Creatures/lostgarden/plastimax.png" DetailColor="Y" />
+		<part Name="RandomColors" MainColor="y,y,Y,Y,K,K" DetailColor="Y,K,y,K,y,Y" PairDetailWithForeground="true" />
+		<part Name="Brain" Wanders="True" Factions="Prey-99,Equines-100" />
+		<stat Name="Intelligence" Boost="4" />
+		<stat Name="Willpower" Boost="4" />
+		<stat Name="Ego" Boost="4" />
+		<stat Name="Hitpoints" Value="80" />
+		<stat Name="Level" Value="21" />
+		<stat Name="AV" Value="5" />
+		<mutation Name="Telepathy" />
+		<mutation Name="LightManipulation" Level="5" />
+		<mutation Name="HeightenedStrength" Level="3" />
+		<inventoryobject Blueprint="Sibs_Garden_PlastiferZebraKick" Number="2" />
+		<part Name="Description" Short="=pronouns.Possessive= coat has coalesced Eaters plastics onto =pronouns.possessive= stupendous frame. Countless brushes run along =pronouns.possessive= neck, discoloration washing deep grooves along flanks, scruff and limbs alike. Caught between two stripes, light refracts and flows out tenfold." />
+		<skill Name="Cudgel" />
+		<tag Name="Role" Value="Brute" />
+		<tag Name="Class" Value="equine" />    
+		<tag Name="Species" Value="zebra" />
+		<tag Name="SimpleConversation" Value="&amp;w*soft nickering*&amp;y" />
+	</object>
+  
+	<object Name="Sibs_Garden_PlastiferZebraKick" Inherits="NaturalWeapon">
+		<part Name="Render" DisplayName="kick" Tile="Creatures/natural-weapon-hoof1.bmp" ColorString="&amp;w"  />
+		<part Name="MeleeWeapon" BaseDamage="3d3" Skill="Cudgel" Stat="Strength" Slot="Foot" />
+	</object>
+  
+	<object Name="Sibs_Garden_PlastiferZebraCorpse" Inherits="Animal Corpse">
+		<part Name="Render" DisplayName="{{plastifer|plastimax}} corpse" />    
+		<part Name="Physics" Weight="300" />    
+		<tag Name="Tier" Value="3" />    
+	</object>
   
 	<!--NPCs-->
 	

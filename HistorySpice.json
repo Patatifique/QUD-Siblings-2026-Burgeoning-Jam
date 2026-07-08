@@ -1,0 +1,24 @@
+{
+	"spice": {
+ 
+		"cooking": {
+
+			"recipeNames": {
+
+				"ingredients": {
+			
+					"Sibs_CatsDogs_ThunderbirdGizzardPaste": {
+						"adj": [ "<^.adj1.!random>", "<^.adj2.!random>" ],
+						"adj1": [ "coulombe", "voltaic", "jolt", "electric" ],
+						"adj2": [ "electric", "crackling", "coulomby", "voltaic", "<^.noun.!random>-<spice.cooking.recipeNames.suffix.!random>" ],
+						"nounPlural": [ "gizzard compote", "gizzards", "electric current", "giblets", "electricity", "lightning" ],
+						"noun": [ "gizzard", "electron", "volt", "jolt" ]
+
+					}
+		  
+				}
+			}
+		}
+
+	}
+}

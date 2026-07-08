@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+	
+<!--Raw Food-->
+
+	<object Name="Sibs_CatsDogs_ThunderbirdGizzard" Inherits="Organ">
+		<part Name="Render" DisplayName="{{W|coulombe gizzard}}" ColorString="&amp;W" DetailColor="y" Tile="Items/sw_breather_gland.bmp" />
+		<part Name="Physics" Weight="1" />
+		<part Name="Commerce" Value="50" />
+		<part Name="Description" Short="Freed from a a feathered owner, soft flesh crackles with unspent charge." />
+		<part Name="Food" Message="It tingles your taste buds." />    
+		<part Name="PreservableItem" Result="Sibs_CatsDogs_ThunderbirdGizzardPaste" Number="8" />
+		<stag Name="Energy" />
+	</object>
+  
+<!--Preserved Food-->
+
+	<object Name="Sibs_CatsDogs_ThunderbirdGizzardPaste" Inherits="Preservable">
+		<part Name="Render" DisplayName="{{Y|coulombe gizzard paste}}" RenderString="%" ColorString="&amp;y" DetailColor="W" RenderLayer="5" Tile="Items/sw_paste.bmp" />
+		<part Name="Commerce" Value="4" />
+		<part Name="Description" Short="Flesh was ground to fine dust until only a memory of feathers remained meshed in with free electrons." />
+		<part Name="PreparedCookingIngredient" type="electric" charges="1" />
+		<tag Name="Meat" />
+		<tag Name="DynamicObjectsTable:Jungle_Ingredients" />
+		<tag Name="DynamicObjectsTable:Ruins_Ingredients" />
+		<stag Name="Energy" />
+  </object>
+
+
+</objects>

@@ -6,9 +6,8 @@
     <part Name="TerrainTravel" Segments="3000" LostChance="1500" TravelClass="Survival_JungleSurvival" />
     <part Name="Description" Short="Elastomere trunks rebound unwary travelers the way they once came." />
     <tag Name="DefaultWall" Value="Mudroot" />
-    <tag Name="LairOwnerTable" Value="LairOwners_Jungle" />
+    <tag Name="LairOwnerTable" Value="Sibs_Garden_LairOwners_RubberOrchard" />
     <tag Name="Terrain" Value="Jungle" />
-    <tag Name="RuinWalls" Value="HighTierRegionRuinWalls" />
     <tag Name="RegionTier" Value="3" />
     <tag Name="NoAutowalk" />
   </object>
