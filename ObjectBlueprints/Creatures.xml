@@ -18,12 +18,14 @@
 		<tag Name="Species" Value="quadrupedal robot" />
 		<inventoryobject Blueprint="@DynamicObjectsTable:EnergyCells:Tier{ownertier}" Number="1-2" Chance="4" />
 		<part Name="LeavesTrail" TrailChance="100" TrailBlueprint="Sibs_Garden_SmallSaltyWaterPuddle" OnEnter="false" />
+		<tag Name="Restless" />
 		<tag Name="Role" Value="Summoner" />
 	</object>
 	
 	<object Name="Sibs_Garden_Thunderbird" Inherits="BaseBird">
 		<part Name="Render" DisplayName="coulombe" RenderString="b" Tile="Creatures/lostgarden/thunderbird.png" DetailColor="W" ColorString="&amp;y" />
 		<part Name="Description" Short="Free electrons sizzle =pronouns.possessive= plumage, stacking polarities of held-back punishment. The air about =pronouns.objective= strums with anticipation as =pronouns.subjective= =verb:swoop:afterpronoun= down upon prospective prey." />
+		<part Name="Brain" Hostile="false" Factions="Birds-100" />		
 		<stat Name="Level" Value="21" />
 		<stat Name="Hitpoints" Value="40" />
 		<stat Name="AV" Value="6" />
@@ -85,7 +87,89 @@
 		<part Name="Physics" Weight="300" />    
 		<tag Name="Tier" Value="3" />    
 	</object>
+
+	<object Name="Sibs_Garden_SleepyDuckMom" Inherits="BaseBird">
+		<part Name="Render" DisplayName="morphic hen" Tile="Creatures/lostgarden/duckmom.png" RenderString="b" ColorString="&amp;C" DetailColor="w" />
+		<part Name="Description" Short="=pronouns.Possessive= feathers ruffle over a birganel fashioned out of protein-laced carbonates. =pronouns.Subjective= =verb:crane:afterpronoun= =pronouns.possessive= soft neck and =verb:catalogue:afterpronoun= =pronouns.possessive= kin with gaseous dreams." />
+		<part Name="Corpse" CorpseChance="50" CorpseBlueprint="Sibs_Garden_SleepyDuckMomCorpse" />
+		<removemutation Name="Wings" />
+		<mutation Name="SleepGasGeneration" Level="5" />
+		<stat Name="Level" Value="21" />
+		<stat Name="Hitpoints" Value="60" />
+		<stat Name="AV" Value="6" />
+		<stat Name="DV" Value="6" />
+		<stat Name="ElectricResistance" Value="300" />
+		<part Name="Brain" Hostile="false" Factions="Birds-100" />
+		<part Name="Spawner" SpawnBlueprint="Sibs_Garden_SleepyDuckEgg" SpawnCheckBlueprint="Sibs_Garden_SleepyDuckling" SpawnVerb="lay" 	SpawnChance="5" SpawnCheckLimit="50" />
+		<part Name="AITryKeepSteadyDistance" />
+		<tag Name="ExcludeFromVillageZero" />
+		<inventoryobject Blueprint="Sibs_Garden_SleepyDuckMomPeck" Number="1" />    
+		<tag Name="Restless" />
+		<part Name="Swarmer" ExtraBonus="2" />
+		<tag Name="Gender" Value="female" />
+		<tag Name="Species" Value="duck" />
+	</object>
+
+	<object Name="Sibs_Garden_SleepyDuckMomPeck" Inherits="NaturalWeapon">
+		<part Name="Render" DisplayName="dull bill" Tile="Creatures/natural-weapon-beak.bmp" ColorString="&amp;W" />
+		<part Name="MeleeWeapon" BaseDamage="4d2" Skill="ShortBlades" Slot="Face" />
+	</object>	
+	
+	<object Name="Sibs_Garden_SleepyDuckMomCorpse" Inherits="Small Animal Corpse">
+		<part Name="Render" DisplayName="morphic duck corpse" />     
+		<part Name="Butcherable" OnSuccess="Sibs_Garden_RawMagret" />
+		<part Name="Food" Message="The meat makes you yawn." />
+		<part Name="Physics" Weight="60" />
+		<part Name="Commerce" Value="5" />
+		<tag Name="Tier" Value="2" />    		
+	</object>
+
+	<object Name="Sibs_Garden_SleepyDuckEgg" Inherits="Item">
+		<part Name="Render" RenderIfDark="true" Tile="items/sw_egg.bmp" DisplayName="morphic egg" RenderString="233" ColorString="&amp;y" />
+		<part Name="Physics" Weight="35" />
+		<stat Name="Hitpoints" Value="6" />
+		<stat Name="XPValue" Value="55" />
+		<stat Name="Speed" Value="75" />
+		<part Name="Description" Short="A rotund egg cracks with unborn potential." />
+		<part Name="SpawnVessel" SpawnBlueprint="Sibs_Garden_SleepyDuckling" ReplaceBlueprint="Sibs_Garden_SleepyDuckEggBroken" SpawnVerb="hatch" SpawnAmount="3" SpawnTime="18-22" SpawnChance="50" SpawnSound="sfx_creature_appear_eggCrack" />
+		<tag Name="ExcludeFromQuests" />
+	</object>
   
+	<object Name="Sibs_Garden_SleepyDuckEggBroken" Inherits="Item">
+		<part Name="Render" RenderIfDark="true" DisplayName="broken morphic egg" Tile="items/sw_egg_broken.bmp" RenderString="%" ColorString="&amp;y" />
+		<part Name="Physics" Weight="35" />
+		<stat Name="Hitpoints" Value="6" />
+		<stat Name="XPValue" Value="0" />
+		<stat Name="Speed" Value="75" />
+		<part Name="Description" Short="Scattered shell pieces bathe in albumen." />
+	</object>
+
+	<object Name="Sibs_Garden_SleepyDuckling" Inherits="BaseBird">
+		<part Name="Render" DisplayName="morphic duckling" Tile="Creatures/lostgarden/duckbaby.png" RenderString="b" ColorString="&amp;C" DetailColor="w" />
+		<part Name="Description" Short="Webbed feet staccato marks =pronouns.objective= hurry as the matriarch waddles away: here is responsibility covered in fuzz." />
+		<part Name="Corpse" CorpseChance="0" CorpseBlueprint="Sibs_Garden_SleepyDuckMomCorpse" />
+		<removemutation Name="Wings" />
+		<stat Name="AV" Value="2" />
+		<stat Name="Agility" Value="17" sValue="17" />
+		<stat Name="Speed" Value="125" />
+		<stat Name="Level" Value="17" />
+		<stat Name="Hitpoints" Value="14" />
+		<property Name="*XPValue" Value="0" />
+		<part Name="Brain" Hostile="false" Factions="Birds-100" />
+		<inventoryobject Blueprint="Sibs_Garden_SleepyDucklingPeck" Number="1" />    
+		<skill Name="ShortBlades" />
+		<part Name="Swarmer" />
+		<tag Name="Species" Value="duck" />
+		<tag Name="Role" Value="Minion" />
+		<part Name="AIFlocks" FlocksWith="Sibs_Garden_SleepyDuckMom" />
+	</object>
+  
+  	<object Name="Sibs_Garden_SleepyDucklingPeck" Inherits="NaturalWeapon">
+		<part Name="Render" DisplayName="nanon bill" Tile="Creatures/natural-weapon-beak.bmp" ColorString="&amp;W" />
+		<part Name="MeleeWeapon" BaseDamage="1d2" Skill="ShortBlades" Slot="Face" />
+		<part Name="VibroWeapon" ChargeUse="0" IsPowerLoadSensitive="false" IsBioScannable="true" NameForStatus="VibroTeeth" />
+	</object>
+
 	<!--NPCs-->
 	
 	<object Name="Sibs_Garden_Sven" Inherits="NPC">

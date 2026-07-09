@@ -12,6 +12,15 @@
 		<part Name="PreservableItem" Result="Sibs_CatsDogs_ThunderbirdGizzardPaste" Number="8" />
 		<stag Name="Energy" />
 	</object>
+	
+	<object Name="Sibs_Garden_RawMagret" Inherits="Raw Meat">
+		<part Name="Render" DisplayName="{{r|raw magret}}" />
+		<part Name="Description" Short="Raw duck flesh yearns for honey and a sizzle." />
+		<part Name="Food" Message="It would taste better properly seared." />
+		<part Name="Physics" Weight="3" />
+		<part Name="Commerce" Value="3" />
+		<part Name="PreservableItem" Result="Sibs_Garden_DryMagret" Number="3" />
+	</object>
   
 <!--Preserved Food-->
 
@@ -24,7 +33,13 @@
 		<tag Name="DynamicObjectsTable:Jungle_Ingredients" />
 		<tag Name="DynamicObjectsTable:Ruins_Ingredients" />
 		<stag Name="Energy" />
-  </object>
+	</object>
 
+	<object Name="Sibs_Garden_DryMagret" Inherits="Jerky">
+		<part Name="Render" DisplayName="{{w|dried magret}}" Tile="Items/sw_jerky1.bmp" />
+		<part Name="Description" Short="Duck flesh was cut into neat strips, salted, and smoked." />
+		<tag Name="DynamicObjectsTable:Ruins_Ingredients" />
+		<tag Name="DynamicObjectsTable:Jungle_Ingredients" />
+	</object>
 
 </objects>
