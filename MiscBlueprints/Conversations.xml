@@ -178,7 +178,7 @@
 		
 		<start ID="Welcome" Inherits="DefaultChoices">
 			<text>
-				{{emote|*The massive troll looks down at you, brandishing the frond =pronouns.objective= =verb:keep:afterpronoun= planted in a small enameled cup.*}}
+				{{emote|*The massive troll looks down at you, brandishing the frond =pronouns.subjective= =verb:keep:afterpronoun= planted in a small enameled cup.*}}
 				
 				You! We are trading now.
 			</text>

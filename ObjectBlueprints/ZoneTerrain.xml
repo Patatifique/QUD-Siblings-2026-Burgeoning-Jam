@@ -14,7 +14,7 @@
 	<object Name="Sibs_Garden_RubberTree" Inherits="Tree">
 		<part Name="Render" DisplayName="rubber tree" RenderString="244" Tile="Terrain/lostgarden/rubbertree1.png" ColorString="&amp;g" DetailColor="w" Occluding="true" />
 		<part Name="Description" Short="Flowing elastomere sap has shot the tree toward Hindsun and Beetle Moon. Nestled within soft bark and dehiscent fruit lays the promise of a future sibling yet to bloom." />
-		<part Name="Harvestable" OnSuccess="Rubber Tree Seed" StartRipeChance="1:10" RipeColor="&amp;g" RipeTileColor="&amp;g" RipeDetailColor="W" UnripeColor="&amp;g" UnripeTileColor="&amp;g" UnripeDetailColor="w" />
+		<part Name="Harvestable" OnSuccess="Rubber Tree Seed" StartRipeChance="1:50" RipeColor="&amp;g" RipeTileColor="&amp;g" RipeDetailColor="W" UnripeColor="&amp;g" UnripeTileColor="&amp;g" UnripeDetailColor="w" />
 		<tag Name="HangingSupport" />
 		<stat Name="ElectricResistance" Value="300" />
 		<builder Name="RandomTile" Tiles="Terrain/lostgarden/rubbertree1.png,Terrain/lostgarden/rubbertree2.png,Terrain/lostgarden/rubbertree3.png" />
